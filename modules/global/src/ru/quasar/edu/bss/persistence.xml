@@ -2,5 +2,11 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="bss" transaction-type="RESOURCE_LOCAL">
 
+        <class>ru.quasar.edu.bss.entity.MainDirection</class>
+        <class>ru.quasar.edu.bss.entity.QuasarProject</class>
+        <class>ru.quasar.edu.bss.entity.QuasarProduct</class>
+        <class>ru.quasar.edu.bss.entity.Competitor</class>
+        <class>ru.quasar.edu.bss.entity.MarketSegment</class>
+        <class>ru.quasar.edu.bss.entity.BusinessType</class>
     </persistence-unit>
 </persistence>
