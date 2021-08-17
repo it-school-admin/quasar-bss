@@ -8,5 +8,7 @@
         <class>ru.quasar.edu.bss.entity.Competitor</class>
         <class>ru.quasar.edu.bss.entity.MarketSegment</class>
         <class>ru.quasar.edu.bss.entity.BusinessType</class>
+        <class>ru.quasar.edu.bss.entity.CompetitorProduct</class>
+        <class>ru.quasar.edu.bss.entity.Feature</class>
     </persistence-unit>
 </persistence>

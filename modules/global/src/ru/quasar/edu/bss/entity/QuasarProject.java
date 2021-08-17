@@ -9,6 +9,7 @@ import com.haulmont.cuba.core.global.DeletePolicy;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 
 @Table(name = "BSS_QUASAR_PROJECT")
 @Entity(name = "bss_QuasarProject")
@@ -18,6 +19,12 @@ public class QuasarProject extends StandardEntity {
     @NotNull
     @Column(name = "PROJECT_NAME", nullable = false, unique = true)
     private String projectName;
+
+    @JoinTable(name = "BSS_QUASAR_PROJECT_MAIN_DIRECTION_LINK",
+            joinColumns = @JoinColumn(name = "QUASAR_PROJECT_ID"),
+            inverseJoinColumns = @JoinColumn(name = "MAIN_DIRECTION_ID"))
+    @ManyToMany
+    private List<MainDirection> direction;
 
     @Column(name = "AIM")
     private String aim;
@@ -40,6 +47,14 @@ public class QuasarProject extends StandardEntity {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "BUSINESS_TYPE_ID")
     private BusinessType businessType;
+
+    public List<MainDirection> getDirection() {
+        return direction;
+    }
+
+    public void setDirection(List<MainDirection> direction) {
+        this.direction = direction;
+    }
 
     public BusinessType getBusinessType() {
         return businessType;

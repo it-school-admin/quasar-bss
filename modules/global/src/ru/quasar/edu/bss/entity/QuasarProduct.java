@@ -7,6 +7,7 @@ import com.haulmont.cuba.core.global.DeletePolicy;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
+import java.util.List;
 import java.util.Set;
 
 @Table(name = "BSS_QUASAR_PRODUCT")
@@ -28,6 +29,44 @@ public class QuasarProduct extends StandardEntity {
     @NotNull
     @Column(name = "AIM", nullable = false)
     private String aim;
+
+    @Lob
+    @Column(name = "BUSINESS_VALUE")
+    private String businessValue;
+
+    @JoinTable(name = "BSS_COMPETITOR_PRODUCT_QUASAR_PRODUCT_LINK",
+            joinColumns = @JoinColumn(name = "QUASAR_PRODUCT_ID"),
+            inverseJoinColumns = @JoinColumn(name = "COMPETITOR_PRODUCT_ID"))
+    @ManyToMany
+    private List<CompetitorProduct> competitorProducts;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "DIRECTION_ID")
+    private MainDirection direction;
+
+    public String getBusinessValue() {
+        return businessValue;
+    }
+
+    public void setBusinessValue(String businessValue) {
+        this.businessValue = businessValue;
+    }
+
+    public MainDirection getDirection() {
+        return direction;
+    }
+
+    public void setDirection(MainDirection direction) {
+        this.direction = direction;
+    }
+
+    public List<CompetitorProduct> getCompetitorProducts() {
+        return competitorProducts;
+    }
+
+    public void setCompetitorProducts(List<CompetitorProduct> competitorProducts) {
+        this.competitorProducts = competitorProducts;
+    }
 
     public String getAim() {
         return aim;
