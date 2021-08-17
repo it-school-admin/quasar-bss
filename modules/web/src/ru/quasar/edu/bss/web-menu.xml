@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
     <menu id="application-bss" insertBefore="administration" caption="mainMsg://menu_config.application-bss">
+        <item screen="bss_BusinessType.browse" caption="mainMsg://menu_config.bss_BusinessType.browse"/>
+        <item screen="bss_Competitor.browse" caption="mainMsg://menu_config.bss_Competitor.browse"/>
+        <item screen="bss_CompetitorProduct.browse" caption="mainMsg://menu_config.bss_CompetitorProduct.browse"/>
+        <item screen="bss_Feature.browse" caption="mainMsg://menu_config.bss_Feature.browse"/>
+        <item screen="bss_MainDirection.browse" caption="mainMsg://menu_config.bss_MainDirection.browse"/>
+        <item screen="bss_MarketSegment.browse" caption="mainMsg://menu_config.bss_MarketSegment.browse"/>
+        <item screen="bss_QuasarProduct.browse" caption="mainMsg://menu_config.bss_QuasarProduct.browse"/>
+        <item screen="bss_QuasarProject.browse" caption="mainMsg://menu_config.bss_QuasarProject.browse"/>
     </menu>
 </menu-config>

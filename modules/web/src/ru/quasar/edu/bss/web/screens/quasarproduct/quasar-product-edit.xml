@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://quasarProductEdit.caption"
+        focusComponent="form"
+        messagesPack="ru.quasar.edu.bss.web.screens.quasarproduct">
+    <data>
+        <instance id="quasarProductDc"
+                  class="ru.quasar.edu.bss.entity.QuasarProduct">
+            <view extends="_local">
+                <property name="competitorProducts" view="_local"/>
+                <property name="dependsOn" view="_local"/>
+                <property name="direction" view="_minimal"/>
+            </view>
+            <loader/>
+            <collection id="competitorProductsDc" property="competitorProducts"/>
+            <collection id="dependsOnDc" property="dependsOn"/>
+        </instance>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="editActions" spacing="true">
+        <form id="form" dataContainer="quasarProductDc">
+            <column width="350px">
+                <textField id="productNameField" property="productName"/>
+                <textField id="aimField" property="aim"/>
+                <textArea id="businessValueField" property="businessValue" rows="5"/>
+                <pickerField id="directionField" property="direction"/>
+            </column>
+        </form>
+        <groupBox id="competitorProductsBox" caption="msg://ru.quasar.edu.bss.entity/QuasarProduct.competitorProducts">
+            <table id="competitorProductsTable" dataContainer="competitorProductsDc" width="100%" height="200px">
+                <actions>
+                    <action id="add" type="add"/>
+                    <action id="exclude" type="exclude"/>
+                </actions>
+                <columns>
+                    <column id="productName"/>
+                </columns>
+                <buttonsPanel>
+                    <button action="competitorProductsTable.add"/>
+                    <button action="competitorProductsTable.exclude"/>
+                </buttonsPanel>
+            </table>
+        </groupBox>
+        <groupBox id="dependsOnBox" caption="msg://ru.quasar.edu.bss.entity/QuasarProduct.dependsOn">
+            <table id="dependsOnTable" dataContainer="dependsOnDc" width="100%" height="200px">
+                <actions>
+                    <action id="add" type="add"/>
+                    <action id="exclude" type="exclude"/>
+                </actions>
+                <columns>
+                    <column id="productName"/>
+                    <column id="aim"/>
+                    <column id="businessValue"/>
+                </columns>
+                <buttonsPanel>
+                    <button action="dependsOnTable.add"/>
+                    <button action="dependsOnTable.exclude"/>
+                </buttonsPanel>
+            </table>
+        </groupBox>
+        <hbox id="editActions" spacing="true">
+            <button id="commitAndCloseBtn" action="windowCommitAndClose"/>
+            <button id="closeBtn" action="windowClose"/>
+        </hbox>
+    </layout>
+</window>

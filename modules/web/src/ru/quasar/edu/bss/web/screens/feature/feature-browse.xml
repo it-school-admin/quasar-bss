@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://featureBrowse.caption"
+        focusComponent="featuresTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.feature">
+    <data readOnly="true">
+        <collection id="featuresDc"
+                    class="ru.quasar.edu.bss.entity.Feature">
+            <view extends="_local"/>
+            <loader id="featuresDl">
+                <query>
+                    <![CDATA[select e from bss_Feature e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="featuresTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="featuresTable"
+                dataLoader="featuresDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="featuresTable"
+                    width="100%"
+                    dataContainer="featuresDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="description"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="featuresTable.create"/>
+                <button id="editBtn" action="featuresTable.edit"/>
+                <button id="removeBtn" action="featuresTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://quasarProjectBrowse.caption"
+        focusComponent="quasarProjectsTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.quasarproject">
+    <data readOnly="true">
+        <collection id="quasarProjectsDc"
+                    class="ru.quasar.edu.bss.entity.QuasarProject">
+            <view extends="_local">
+                <property name="businessType" view="_minimal"/>
+            </view>
+            <loader id="quasarProjectsDl">
+                <query>
+                    <![CDATA[select e from bss_QuasarProject e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="quasarProjectsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="quasarProjectsTable"
+                dataLoader="quasarProjectsDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="quasarProjectsTable"
+                    width="100%"
+                    dataContainer="quasarProjectsDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="projectName"/>
+                <column id="aim"/>
+                <column id="shortProposal"/>
+                <column id="proposal"/>
+                <column id="longProposal"/>
+                <column id="businessType"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="quasarProjectsTable.create"/>
+                <button id="editBtn" action="quasarProjectsTable.edit"/>
+                <button id="removeBtn" action="quasarProjectsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://competitorBrowse.caption"
+        focusComponent="competitorsTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.competitor">
+    <data readOnly="true">
+        <collection id="competitorsDc"
+                    class="ru.quasar.edu.bss.entity.Competitor">
+            <view extends="_local"/>
+            <loader id="competitorsDl">
+                <query>
+                    <![CDATA[select e from bss_Competitor e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="competitorsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="competitorsTable"
+                dataLoader="competitorsDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="competitorsTable"
+                    width="100%"
+                    dataContainer="competitorsDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="name"/>
+                <column id="yearBudget"/>
+                <column id="yearProfit"/>
+                <column id="cost"/>
+                <column id="foundationDate"/>
+                <column id="officialSite"/>
+                <column id="linkToRusProfile"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="competitorsTable.create"/>
+                <button id="editBtn" action="competitorsTable.edit"/>
+                <button id="removeBtn" action="competitorsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

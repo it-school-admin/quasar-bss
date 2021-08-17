@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://quasarProjectEdit.caption"
+        focusComponent="form"
+        messagesPack="ru.quasar.edu.bss.web.screens.quasarproject">
+    <data>
+        <instance id="quasarProjectDc"
+                  class="ru.quasar.edu.bss.entity.QuasarProject">
+            <view extends="_local">
+                <property name="businessType" view="_minimal"/>
+                <property name="direction" view="_local"/>
+            </view>
+            <loader/>
+            <collection id="directionDc" property="direction"/>
+        </instance>
+        <collection id="businessTypesDc" class="ru.quasar.edu.bss.entity.BusinessType" view="_minimal">
+            <loader>
+                <query>select e from bss_BusinessType e</query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="editActions" spacing="true">
+        <form id="form" dataContainer="quasarProjectDc">
+            <column width="350px">
+                <textField id="projectNameField" property="projectName"/>
+                <textField id="aimField" property="aim"/>
+                <textField id="shortProposalField" property="shortProposal"/>
+                <textArea id="proposalField" property="proposal" rows="5"/>
+                <textArea id="longProposalField" property="longProposal" rows="5"/>
+                <lookupField id="businessTypeField" property="businessType" optionsContainer="businessTypesDc"/>
+            </column>
+        </form>
+        <groupBox id="directionBox" caption="msg://ru.quasar.edu.bss.entity/QuasarProject.direction">
+            <table id="directionTable" dataContainer="directionDc" width="100%" height="200px">
+                <actions>
+                    <action id="add" type="add"/>
+                    <action id="exclude" type="exclude"/>
+                </actions>
+                <columns>
+                    <column id="directionName"/>
+                    <column id="mission"/>
+                </columns>
+                <buttonsPanel>
+                    <button action="directionTable.add"/>
+                    <button action="directionTable.exclude"/>
+                </buttonsPanel>
+            </table>
+        </groupBox>
+        <hbox id="editActions" spacing="true">
+            <button id="commitAndCloseBtn" action="windowCommitAndClose"/>
+            <button id="closeBtn" action="windowClose"/>
+        </hbox>
+    </layout>
+</window>

@@ -10,7 +10,7 @@ create table BSS_QUASAR_PRODUCT (
     DELETED_BY varchar(50),
     --
     PRODUCT_NAME varchar(255),
-    AIM varchar(255) not null,
+    AIM varchar(255),
     BUSINESS_VALUE text,
     DIRECTION_ID uuid,
     --

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://competitorProductBrowse.caption"
+        focusComponent="competitorProductsTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.competitorproduct">
+    <data readOnly="true">
+        <collection id="competitorProductsDc"
+                    class="ru.quasar.edu.bss.entity.CompetitorProduct">
+            <view extends="_local"/>
+            <loader id="competitorProductsDl">
+                <query>
+                    <![CDATA[select e from bss_CompetitorProduct e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="competitorProductsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="competitorProductsTable"
+                dataLoader="competitorProductsDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="competitorProductsTable"
+                    width="100%"
+                    dataContainer="competitorProductsDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="productName"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="competitorProductsTable.create"/>
+                <button id="editBtn" action="competitorProductsTable.edit"/>
+                <button id="removeBtn" action="competitorProductsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

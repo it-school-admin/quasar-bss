@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://businessTypeBrowse.caption"
+        focusComponent="businessTypesTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.businesstype">
+    <data readOnly="true">
+        <collection id="businessTypesDc"
+                    class="ru.quasar.edu.bss.entity.BusinessType">
+            <view extends="_local"/>
+            <loader id="businessTypesDl">
+                <query>
+                    <![CDATA[select e from bss_BusinessType e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="businessTypesTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="businessTypesTable"
+                dataLoader="businessTypesDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="businessTypesTable"
+                    width="100%"
+                    dataContainer="businessTypesDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="businessTypeName"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="businessTypesTable.create"/>
+                <button id="editBtn" action="businessTypesTable.edit"/>
+                <button id="removeBtn" action="businessTypesTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

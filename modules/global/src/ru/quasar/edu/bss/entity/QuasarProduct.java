@@ -6,7 +6,6 @@ import com.haulmont.cuba.core.entity.annotation.OnDeleteInverse;
 import com.haulmont.cuba.core.global.DeletePolicy;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 import java.util.List;
 import java.util.Set;
 
@@ -26,8 +25,7 @@ public class QuasarProduct extends StandardEntity {
     @ManyToMany
     private Set<QuasarProduct> dependsOn;
 
-    @NotNull
-    @Column(name = "AIM", nullable = false)
+    @Column(name = "AIM")
     private String aim;
 
     @Lob

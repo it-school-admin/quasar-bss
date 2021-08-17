@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://mainDirectionBrowse.caption"
+        focusComponent="mainDirectionsTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.maindirection">
+    <data readOnly="true">
+        <collection id="mainDirectionsDc"
+                    class="ru.quasar.edu.bss.entity.MainDirection">
+            <view extends="_local"/>
+            <loader id="mainDirectionsDl">
+                <query>
+                    <![CDATA[select e from bss_MainDirection e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="mainDirectionsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="mainDirectionsTable"
+                dataLoader="mainDirectionsDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="mainDirectionsTable"
+                    width="100%"
+                    dataContainer="mainDirectionsDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="directionName"/>
+                <column id="mission"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="mainDirectionsTable.create"/>
+                <button id="editBtn" action="mainDirectionsTable.edit"/>
+                <button id="removeBtn" action="mainDirectionsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

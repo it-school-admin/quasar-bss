@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://quasarProductBrowse.caption"
+        focusComponent="quasarProductsTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.quasarproduct">
+    <data readOnly="true">
+        <collection id="quasarProductsDc"
+                    class="ru.quasar.edu.bss.entity.QuasarProduct">
+            <view extends="_local">
+                <property name="direction" view="_minimal"/>
+            </view>
+            <loader id="quasarProductsDl">
+                <query>
+                    <![CDATA[select e from bss_QuasarProduct e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="quasarProductsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="quasarProductsTable"
+                dataLoader="quasarProductsDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="quasarProductsTable"
+                    width="100%"
+                    dataContainer="quasarProductsDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="productName"/>
+                <column id="aim"/>
+                <column id="businessValue"/>
+                <column id="direction"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="quasarProductsTable.create"/>
+                <button id="editBtn" action="quasarProductsTable.edit"/>
+                <button id="removeBtn" action="quasarProductsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

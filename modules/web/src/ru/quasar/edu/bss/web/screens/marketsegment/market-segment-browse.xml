@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://marketSegmentBrowse.caption"
+        focusComponent="marketSegmentsTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.marketsegment">
+    <data readOnly="true">
+        <collection id="marketSegmentsDc"
+                    class="ru.quasar.edu.bss.entity.MarketSegment">
+            <view extends="_local"/>
+            <loader id="marketSegmentsDl">
+                <query>
+                    <![CDATA[select e from bss_MarketSegment e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="marketSegmentsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="marketSegmentsTable"
+                dataLoader="marketSegmentsDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="marketSegmentsTable"
+                    width="100%"
+                    dataContainer="marketSegmentsDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="segmentName"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="marketSegmentsTable.create"/>
+                <button id="editBtn" action="marketSegmentsTable.edit"/>
+                <button id="removeBtn" action="marketSegmentsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>
