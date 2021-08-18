@@ -10,5 +10,7 @@
         <class>ru.quasar.edu.bss.entity.BusinessType</class>
         <class>ru.quasar.edu.bss.entity.CompetitorProduct</class>
         <class>ru.quasar.edu.bss.entity.Feature</class>
+        <class>ru.quasar.edu.bss.entity.Contacts</class>
+        <class>ru.quasar.edu.bss.entity.ContactKind</class>
     </persistence-unit>
 </persistence>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://contactsBrowse.caption"
+        focusComponent="contactsesTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.contacts">
+    <data readOnly="true">
+        <collection id="contactsesDc"
+                    class="ru.quasar.edu.bss.entity.Contacts">
+            <view extends="_local">
+                <property name="contactKind" view="_minimal"/>
+            </view>
+            <loader id="contactsesDl">
+                <query>
+                    <![CDATA[select e from bss_Contacts e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="contactsesTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="contactsesTable"
+                dataLoader="contactsesDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="contactsesTable"
+                    width="100%"
+                    dataContainer="contactsesDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="contactName"/>
+                <column id="description"/>
+                <column id="contactData"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="contactsesTable.create"/>
+                <button id="editBtn" action="contactsesTable.edit"/>
+                <button id="removeBtn" action="contactsesTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

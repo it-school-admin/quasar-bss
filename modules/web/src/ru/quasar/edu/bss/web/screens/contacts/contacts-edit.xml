@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://contactsEdit.caption"
+        focusComponent="form"
+        messagesPack="ru.quasar.edu.bss.web.screens.contacts">
+    <data>
+        <instance id="contactsDc"
+                  class="ru.quasar.edu.bss.entity.Contacts">
+            <view extends="_local">
+                <property name="contactKind" view="_minimal"/>
+            </view>
+            <loader/>
+            <collection id="contactKindDc" property="contactKind"/>
+        </instance>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="editActions" spacing="true">
+        <form id="form" dataContainer="contactsDc">
+            <column width="350px">
+                <textField id="contactNameField" property="contactName"/>
+                <textField id="descriptionField" property="description"/>
+                <textField id="contactDataField" property="contactData"/>
+            </column>
+        </form>
+        <groupBox id="contactKindBox" caption="msg://ru.quasar.edu.bss.entity/Contacts.contactKind">
+            <table id="contactKindTable" dataContainer="contactKindDc" width="100%" height="200px">
+                <actions>
+                    <action id="add" type="add"/>
+                    <action id="exclude" type="exclude"/>
+                </actions>
+                <columns>
+                    <column id="name"/>
+                </columns>
+                <buttonsPanel>
+                    <button action="contactKindTable.add"/>
+                    <button action="contactKindTable.exclude"/>
+                </buttonsPanel>
+            </table>
+        </groupBox>
+        <hbox id="editActions" spacing="true">
+            <button id="commitAndCloseBtn" action="windowCommitAndClose"/>
+            <button id="closeBtn" action="windowClose"/>
+        </hbox>
+    </layout>
+</window>

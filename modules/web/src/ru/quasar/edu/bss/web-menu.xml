@@ -9,5 +9,7 @@
         <item screen="bss_MarketSegment.browse" caption="mainMsg://menu_config.bss_MarketSegment.browse"/>
         <item screen="bss_QuasarProduct.browse" caption="mainMsg://menu_config.bss_QuasarProduct.browse"/>
         <item screen="bss_QuasarProject.browse" caption="mainMsg://menu_config.bss_QuasarProject.browse"/>
+        <item screen="bss_ContactKind.browse" caption="mainMsg://menu_config.bss_ContactKind.browse"/>
+        <item screen="bss_Contacts.browse" caption="mainMsg://menu_config.bss_Contacts.browse"/>
     </menu>
 </menu-config>
