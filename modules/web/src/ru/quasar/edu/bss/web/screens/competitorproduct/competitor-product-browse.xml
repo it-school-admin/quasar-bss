@@ -9,6 +9,7 @@
                     class="ru.quasar.edu.bss.entity.CompetitorProduct">
             <view extends="_local">
                 <property name="competitor" view="_minimal"/>
+                <property name="parentProduct" view="_minimal"/>
             </view>
             <loader id="competitorProductsDl">
                 <query>
@@ -39,6 +40,8 @@
                 <column id="competitor"/>
                 <column id="sales"/>
                 <column id="siteLink"/>
+                <column id="parentProduct"/>
+                <column id="description"/>
             </columns>
             <rowsCount/>
             <buttonsPanel id="buttonsPanel"

@@ -12,5 +12,8 @@
         <class>ru.quasar.edu.bss.entity.Feature</class>
         <class>ru.quasar.edu.bss.entity.Contacts</class>
         <class>ru.quasar.edu.bss.entity.ContactKind</class>
+        <class>ru.quasar.edu.bss.entity.EducationalOrganizations</class>
+        <class>ru.quasar.edu.bss.entity.Region</class>
+        <class>ru.quasar.edu.bss.entity.EducationalOrganizationStructure</class>
     </persistence-unit>
 </persistence>

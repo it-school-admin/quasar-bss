@@ -1,5 +1,6 @@
 package ru.quasar.edu.bss.entity;
 
+import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.StandardEntity;
 
 import javax.persistence.*;
@@ -8,12 +9,16 @@ import java.util.List;
 
 @Table(name = "BSS_COMPETITOR_PRODUCT")
 @Entity(name = "bss_CompetitorProduct")
+@NamePattern("%s|description")
 public class CompetitorProduct extends StandardEntity {
     private static final long serialVersionUID = -4368131315179602006L;
 
     @NotNull
     @Column(name = "PRODUCT_NAME", nullable = false)
     private String productName;
+
+    @Column(name = "DESCRIPTION")
+    private String description;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "COMPETITOR_ID")
@@ -30,6 +35,26 @@ public class CompetitorProduct extends StandardEntity {
 
     @Column(name = "SITE_LINK")
     private String siteLink;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "PARENT_PRODUCT_ID")
+    private CompetitorProduct parentProduct;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public CompetitorProduct getParentProduct() {
+        return parentProduct;
+    }
+
+    public void setParentProduct(CompetitorProduct parentProduct) {
+        this.parentProduct = parentProduct;
+    }
 
     public String getSiteLink() {
         return siteLink;

@@ -11,5 +11,10 @@
         <item screen="bss_QuasarProject.browse" caption="mainMsg://menu_config.bss_QuasarProject.browse"/>
         <item screen="bss_ContactKind.browse" caption="mainMsg://menu_config.bss_ContactKind.browse"/>
         <item screen="bss_Contacts.browse" caption="mainMsg://menu_config.bss_Contacts.browse"/>
+        <item screen="bss_Region.browse" caption="mainMsg://menu_config.bss_Region.browse"/>
+        <item screen="bss_EducationalOrganizations.browse"
+              caption="mainMsg://menu_config.bss_EducationalOrganizations.browse"/>
+        <item screen="bss_EducationalOrganizationStructure.browse"
+              caption="mainMsg://menu_config.bss_EducationalOrganizationStructure.browse"/>
     </menu>
 </menu-config>

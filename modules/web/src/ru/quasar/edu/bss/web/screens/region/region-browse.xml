@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://regionBrowse.caption"
+        focusComponent="regionsTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.region">
+    <data readOnly="true">
+        <collection id="regionsDc"
+                    class="ru.quasar.edu.bss.entity.Region">
+            <view extends="_local"/>
+            <loader id="regionsDl">
+                <query>
+                    <![CDATA[select e from bss_Region e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="regionsTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="regionsTable"
+                dataLoader="regionsDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="regionsTable"
+                    width="100%"
+                    dataContainer="regionsDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="regionCode"/>
+                <column id="name"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="regionsTable.create"/>
+                <button id="editBtn" action="regionsTable.edit"/>
+                <button id="removeBtn" action="regionsTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

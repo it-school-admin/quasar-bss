@@ -9,6 +9,7 @@
             <view extends="_local">
                 <property name="quasarProduct" view="_local"/>
                 <property name="competitor" view="_minimal"/>
+                <property name="parentProduct" view="_minimal"/>
             </view>
             <loader/>
             <collection id="quasarProductDc" property="quasarProduct"/>
@@ -23,6 +24,8 @@
                 <pickerField id="competitorField" property="competitor"/>
                 <textField id="salesField" property="sales"/>
                 <textField id="siteLinkField" property="siteLink"/>
+                <pickerField id="parentProductField" property="parentProduct"/>
+                <textField id="descriptionField" property="description"/>
             </column>
         </form>
         <groupBox id="quasarProductBox" caption="msg://ru.quasar.edu.bss.entity/CompetitorProduct.quasarProduct">

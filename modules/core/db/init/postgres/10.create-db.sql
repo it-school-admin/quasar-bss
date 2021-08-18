@@ -130,9 +130,11 @@ create table BSS_COMPETITOR_PRODUCT (
     DELETED_BY varchar(50),
     --
     PRODUCT_NAME varchar(255) not null,
+    DESCRIPTION varchar(255),
     COMPETITOR_ID uuid,
     SALES integer,
     SITE_LINK varchar(255),
+    PARENT_PRODUCT_ID uuid,
     --
     primary key (ID)
 )^
@@ -210,3 +212,63 @@ create table BSS_CONTACTS_CONTACT_KIND_LINK (
     primary key (CONTACTS_ID, CONTACT_KIND_ID)
 )^
 -- end BSS_CONTACTS_CONTACT_KIND_LINK
+-- begin BSS_REGION
+create table BSS_REGION (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    REGION_CODE varchar(255) not null,
+    NAME varchar(255) not null,
+    --
+    primary key (ID)
+)^
+-- end BSS_REGION
+-- begin BSS_EDUCATIONAL_ORGANIZATION_STRUCTURE
+create table BSS_EDUCATIONAL_ORGANIZATION_STRUCTURE (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    SHORT_NAME varchar(255),
+    NAME varchar(255),
+    DIRECTOR_ID uuid,
+    SITE varchar(255),
+    ADDRESS varchar(255),
+    EDUCATIONAL_ORGANIZATIONS_ID uuid not null,
+    --
+    primary key (ID)
+)^
+-- end BSS_EDUCATIONAL_ORGANIZATION_STRUCTURE
+-- begin BSS_EDUCATIONAL_ORGANIZATIONS
+create table BSS_EDUCATIONAL_ORGANIZATIONS (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    SHORT_NAME varchar(255),
+    NAME varchar(255),
+    ADDRESS varchar(255),
+    EMAIL varchar(255),
+    PHONE varchar(255),
+    SITE varchar(255),
+    DIRECTOR_ID uuid,
+    --
+    primary key (ID)
+)^
+-- end BSS_EDUCATIONAL_ORGANIZATIONS
