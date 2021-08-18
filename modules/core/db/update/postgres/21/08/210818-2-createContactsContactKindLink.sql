@@ -1,0 +1,2 @@
+alter table BSS_CONTACTS_CONTACT_KIND_LINK add constraint FK_CONCONKIN_ON_CONTACTS foreign key (CONTACTS_ID) references BSS_CONTACTS(ID);
+alter table BSS_CONTACTS_CONTACT_KIND_LINK add constraint FK_CONCONKIN_ON_CONTACT_KIND foreign key (CONTACT_KIND_ID) references BSS_CONTACT_KIND(ID);

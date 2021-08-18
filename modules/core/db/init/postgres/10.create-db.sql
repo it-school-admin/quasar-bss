@@ -167,3 +167,44 @@ create table BSS_COMPETITOR_PRODUCT_QUASAR_PRODUCT_LINK (
     primary key (COMPETITOR_PRODUCT_ID, QUASAR_PRODUCT_ID)
 )^
 -- end BSS_COMPETITOR_PRODUCT_QUASAR_PRODUCT_LINK
+-- begin BSS_CONTACT_KIND
+create table BSS_CONTACT_KIND (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    NAME varchar(255),
+    --
+    primary key (ID)
+)^
+-- end BSS_CONTACT_KIND
+-- begin BSS_CONTACTS
+create table BSS_CONTACTS (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    CONTACT_NAME varchar(255),
+    DESCRIPTION varchar(255),
+    CONTACT_DATA varchar(255),
+    --
+    primary key (ID)
+)^
+-- end BSS_CONTACTS
+-- begin BSS_CONTACTS_CONTACT_KIND_LINK
+create table BSS_CONTACTS_CONTACT_KIND_LINK (
+    CONTACTS_ID uuid,
+    CONTACT_KIND_ID uuid,
+    primary key (CONTACTS_ID, CONTACT_KIND_ID)
+)^
+-- end BSS_CONTACTS_CONTACT_KIND_LINK
