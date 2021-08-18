@@ -25,6 +25,28 @@ public class CompetitorProduct extends StandardEntity {
     @ManyToMany
     private List<QuasarProduct> quasarProduct;
 
+    @Column(name = "SALES")
+    private Integer sales;
+
+    @Column(name = "SITE_LINK")
+    private String siteLink;
+
+    public String getSiteLink() {
+        return siteLink;
+    }
+
+    public void setSiteLink(String siteLink) {
+        this.siteLink = siteLink;
+    }
+
+    public Integer getSales() {
+        return sales;
+    }
+
+    public void setSales(Integer sales) {
+        this.sales = sales;
+    }
+
     public List<QuasarProduct> getQuasarProduct() {
         return quasarProduct;
     }

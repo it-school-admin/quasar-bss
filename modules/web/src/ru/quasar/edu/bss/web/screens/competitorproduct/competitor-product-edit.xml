@@ -6,8 +6,12 @@
     <data>
         <instance id="competitorProductDc"
                   class="ru.quasar.edu.bss.entity.CompetitorProduct">
-            <view extends="_local"/>
+            <view extends="_local">
+                <property name="quasarProduct" view="_local"/>
+                <property name="competitor" view="_minimal"/>
+            </view>
             <loader/>
+            <collection id="quasarProductDc" property="quasarProduct"/>
         </instance>
     </data>
     <dialogMode height="600"
@@ -16,8 +20,28 @@
         <form id="form" dataContainer="competitorProductDc">
             <column width="350px">
                 <textField id="productNameField" property="productName"/>
+                <pickerField id="competitorField" property="competitor"/>
+                <textField id="salesField" property="sales"/>
+                <textField id="siteLinkField" property="siteLink"/>
             </column>
         </form>
+        <groupBox id="quasarProductBox" caption="msg://ru.quasar.edu.bss.entity/CompetitorProduct.quasarProduct">
+            <table id="quasarProductTable" dataContainer="quasarProductDc" width="100%" height="200px">
+                <actions>
+                    <action id="add" type="add"/>
+                    <action id="exclude" type="exclude"/>
+                </actions>
+                <columns>
+                    <column id="productName"/>
+                    <column id="aim"/>
+                    <column id="businessValue"/>
+                </columns>
+                <buttonsPanel>
+                    <button action="quasarProductTable.add"/>
+                    <button action="quasarProductTable.exclude"/>
+                </buttonsPanel>
+            </table>
+        </groupBox>
         <hbox id="editActions" spacing="true">
             <button id="commitAndCloseBtn" action="windowCommitAndClose"/>
             <button id="closeBtn" action="windowClose"/>

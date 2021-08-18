@@ -7,7 +7,9 @@
     <data readOnly="true">
         <collection id="competitorProductsDc"
                     class="ru.quasar.edu.bss.entity.CompetitorProduct">
-            <view extends="_local"/>
+            <view extends="_local">
+                <property name="competitor" view="_minimal"/>
+            </view>
             <loader id="competitorProductsDl">
                 <query>
                     <![CDATA[select e from bss_CompetitorProduct e]]>
@@ -34,6 +36,9 @@
             </actions>
             <columns>
                 <column id="productName"/>
+                <column id="competitor"/>
+                <column id="sales"/>
+                <column id="siteLink"/>
             </columns>
             <rowsCount/>
             <buttonsPanel id="buttonsPanel"

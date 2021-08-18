@@ -131,6 +131,8 @@ create table BSS_COMPETITOR_PRODUCT (
     --
     PRODUCT_NAME varchar(255) not null,
     COMPETITOR_ID uuid,
+    SALES integer,
+    SITE_LINK varchar(255),
     --
     primary key (ID)
 )^
