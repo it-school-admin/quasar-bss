@@ -6,7 +6,10 @@
     <data>
         <instance id="marketSegmentDc"
                   class="ru.quasar.edu.bss.entity.MarketSegment">
-            <view extends="_local"/>
+            <view extends="_local">
+                <property name="parentSegment" view="_minimal"/>
+                <property name="businessType" view="_minimal"/>
+            </view>
             <loader/>
         </instance>
     </data>
@@ -16,6 +19,8 @@
         <form id="form" dataContainer="marketSegmentDc">
             <column width="350px">
                 <textField id="segmentNameField" property="segmentName"/>
+                <pickerField id="parentSegmentField" property="parentSegment"/>
+                <pickerField id="businessTypeField" property="businessType"/>
             </column>
         </form>
         <hbox id="editActions" spacing="true">

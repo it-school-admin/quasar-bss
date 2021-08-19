@@ -7,7 +7,10 @@
     <data readOnly="true">
         <collection id="marketSegmentsDc"
                     class="ru.quasar.edu.bss.entity.MarketSegment">
-            <view extends="_local"/>
+            <view extends="_local">
+                <property name="parentSegment" view="_minimal"/>
+                <property name="businessType" view="_minimal"/>
+            </view>
             <loader id="marketSegmentsDl">
                 <query>
                     <![CDATA[select e from bss_MarketSegment e]]>
@@ -34,6 +37,8 @@
             </actions>
             <columns>
                 <column id="segmentName"/>
+                <column id="parentSegment"/>
+                <column id="businessType"/>
             </columns>
             <rowsCount/>
             <buttonsPanel id="buttonsPanel"
