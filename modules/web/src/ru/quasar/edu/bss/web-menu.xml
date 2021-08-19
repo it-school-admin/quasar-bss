@@ -16,5 +16,6 @@
               caption="mainMsg://menu_config.bss_EducationalOrganizations.browse"/>
         <item screen="bss_EducationalOrganizationStructure.browse"
               caption="mainMsg://menu_config.bss_EducationalOrganizationStructure.browse"/>
+
     </menu>
 </menu-config>
