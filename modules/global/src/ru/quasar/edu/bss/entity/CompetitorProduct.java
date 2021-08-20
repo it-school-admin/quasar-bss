@@ -20,6 +20,12 @@ public class CompetitorProduct extends StandardEntity {
     @Column(name = "DESCRIPTION")
     private String description;
 
+    @Column(name = "PRICE_WITHOUT_TIME_LIMITS")
+    private Integer priceWithoutTimeLimits;
+
+    @Column(name = "PRICE_PER_YEAR")
+    private Integer pricePerYear;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "COMPETITOR_ID")
     private Competitor competitor;
@@ -39,6 +45,22 @@ public class CompetitorProduct extends StandardEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "PARENT_PRODUCT_ID")
     private CompetitorProduct parentProduct;
+
+    public void setPriceWithoutTimeLimits(Integer priceWithoutTimeLimits) {
+        this.priceWithoutTimeLimits = priceWithoutTimeLimits;
+    }
+
+    public Integer getPriceWithoutTimeLimits() {
+        return priceWithoutTimeLimits;
+    }
+
+    public Integer getPricePerYear() {
+        return pricePerYear;
+    }
+
+    public void setPricePerYear(Integer pricePerYear) {
+        this.pricePerYear = pricePerYear;
+    }
 
     public String getDescription() {
         return description;

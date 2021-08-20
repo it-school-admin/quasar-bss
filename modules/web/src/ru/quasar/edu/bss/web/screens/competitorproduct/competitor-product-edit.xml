@@ -26,6 +26,8 @@
                 <textField id="siteLinkField" property="siteLink"/>
                 <pickerField id="parentProductField" property="parentProduct"/>
                 <textField id="descriptionField" property="description"/>
+                <textField id="priceWithoutTimeLimitsField" property="priceWithoutTimeLimits"/>
+                <textField id="pricePerYearField" property="pricePerYear"/>
             </column>
         </form>
         <groupBox id="quasarProductBox" caption="msg://ru.quasar.edu.bss.entity/CompetitorProduct.quasarProduct">

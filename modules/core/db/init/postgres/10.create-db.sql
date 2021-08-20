@@ -131,6 +131,8 @@ create table BSS_COMPETITOR_PRODUCT (
     --
     PRODUCT_NAME varchar(255) not null,
     DESCRIPTION varchar(255),
+    PRICE_WITHOUT_TIME_LIMITS integer,
+    PRICE_PER_YEAR integer,
     COMPETITOR_ID uuid,
     SALES integer,
     SITE_LINK varchar(255),

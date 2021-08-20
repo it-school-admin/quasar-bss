@@ -42,6 +42,8 @@
                 <column id="siteLink"/>
                 <column id="parentProduct"/>
                 <column id="description"/>
+                <column id="priceWithoutTimeLimits"/>
+                <column id="pricePerYear"/>
             </columns>
             <rowsCount/>
             <buttonsPanel id="buttonsPanel"
