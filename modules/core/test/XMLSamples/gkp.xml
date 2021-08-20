@@ -1,0 +1,2762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<licenses>
+    <license>
+        <sysGuid>c66e7edd-c49b-cc5b-39e9-e1b9f1c52c0c</sysGuid>
+        <schoolGuid>0802cb4d-7676-0bc5-4c2a-2dae4e253f8c</schoolGuid>
+        <statusName>Действует</statusName>
+        <schoolName>государственное бюджетное профессиональное образовательное учреждение Самарской области &quot;Губернский
+            колледж города Похвистнево&quot;
+        </schoolName>
+        <shortName>ГБПОУ «ГКП»</shortName>
+        <Inn>6379002431</Inn>
+        <Ogrn>1026303313574</Ogrn>
+        <schoolTypeName/>
+        <lawAddress>Российская Федерация, Самарская область, 446450, г. Похвистнево, ул. Куйбышева,6</lawAddress>
+        <orgName>Департамент по надзору и контролю в сфере образования и информационной безопасности министерства
+            образования и науки Самарской области
+        </orgName>
+        <regNum>5876</regNum>
+        <dateLicDoc>2015-08-10</dateLicDoc>
+        <dateEnd>0000-00-00</dateEnd>
+        <supplements>
+            <supplement>
+                <licenseFK>c66e7edd-c49b-cc5b-39e9-e1b9f1c52c0c</licenseFK>
+                <number>1</number>
+                <statusName>Не действует</statusName>
+                <schoolGuid>0802cb4d-7676-0bc5-4c2a-2dae4e253f8c</schoolGuid>
+                <schoolName>государственное бюджетное профессиональное образовательное учреждение Самарской области
+                    «Губернский колледж города Похвистнево»
+                </schoolName>
+                <shortName>ГБПОУ «ГКП»</shortName>
+                <lawAddress>Российская Федерация, Самарская область, 446450, г. Похвистнево, ул. Куйбышева,6
+                </lawAddress>
+                <orgName>Департамент по надзору и контролю в сфере образования и информационной безопасности
+                    министерства образования и науки Самарской области
+                </orgName>
+                <numLicDoc>0002396</numLicDoc>
+                <dateLicDoc/>
+                <sysGuid>3f0b2df1-2a74-5516-714b-25d49a489e3a</sysGuid>
+                <licensedPrograms>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.02.04</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>06363e81-062a-372e-f1ab-015fc089b393</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.15</code>
+                        <name>Электромонтер по ремонту и обслуживанию электрооборудования в сельскохозяйственном
+                            производстве
+                        </name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0e7c4a2a-2410-ddef-04d9-4f92b8f39784</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>31.02.06</code>
+                        <name>Стоматология профилактическая</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>11ecd08a-4890-c449-6218-f6b3c6a61b30</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>дополнительное образование</eduProgramType>
+                        <code>-</code>
+                        <name>Дополнительное образование детей и взрослых</name>
+                        <eduLevelName>Дополнительное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>15d1fd2c-c71a-3618-7196-9f8e0ce61290</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.01.01</code>
+                        <name>Младшая медицинская сестра по уходу за больными</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>187bcef0-7896-64be-cdac-b97b1850ebf7</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>24031a51-1cf1-4623-1399-211fac608055</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.02.01</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>26e08b24-97b1-4398-6b8e-570c9f9b19ca</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>291e7d1e-6713-83fa-2580-166eb237f30b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>292f5377-8e5b-aee0-cf62-49a5a296ac90</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType/>
+                        <code>110800.02</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>2a55807f-a087-572f-890a-2840fa27cd9b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>начальное профессиональное образование</eduProgramType>
+                        <code>150709.02</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>30599b78-eac8-da35-5a3b-347db57f56c5</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType/>
+                        <code>-</code>
+                        <name>Профессиональное обучение «Изучение особенностей устройства, эксплуатации котлов
+                            двухконтурных для отопления и горячего водоснабжения КВ2у-150, 400-Гн»
+                        </name>
+                        <eduLevelName>Профессиональная подготовка</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3062dd99-98e8-5748-2e79-4863a5774872</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.02</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>33c78aa5-848b-91a6-fb84-c91e59dc021e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3aae70bb-5fd3-48f9-15a4-2607aaf3ad09</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>050146</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3e407781-8049-b1ea-3d19-6acd019d8432</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>190631</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>40a0388c-290a-2a51-5976-4408de4b36f8</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>45f0e8c3-3bf9-ff01-ffeb-c25ebb9de4d2</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>230401</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>561be894-29b5-9f7b-89ef-0568bfe6823d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>562ddea6-4c4d-e687-b32e-740b580671e8</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>569c348b-8ce5-4a14-d962-a473a4765967</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.01</code>
+                        <name>Дошкольное образование</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>5b308072-0935-a27f-8902-68c4837f8706</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>31.02.01</code>
+                        <name>Лечебное дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>5b531b79-5205-9ecb-03fc-a827bbc66816</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>30912</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>72f7317f-6fc4-8c94-d46e-ec460603555d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (ручной дуговой сварки плавящимся покрытым электродом)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>744933d7-c7c3-e2d0-5d8a-0b02ccf5cce3</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>779cff04-b976-6f02-25e3-790051bb58b9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>7a513f86-f967-b2b7-8e0e-ef5044cfb85d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>80ec9521-277f-4192-0702-e6b5b5211c93</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (ручной дуговой сварки плавящимся покрытым электродом)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>8374a8b3-736d-b9e5-8373-dffc5a363d32</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.01.07</code>
+                        <name>Слесарь по эксплуатации и ремонту газового оборудования</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>856d1a12-e392-8cb6-c7c0-12291e235f1d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType/>
+                        <code>-</code>
+                        <name>Дополнительное профессиональное образование</name>
+                        <eduLevelName>Дополнительное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>898e1125-b6a4-853f-2235-9c75f4f5b236</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.26</code>
+                        <name>Токарь-универсал</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>8e4e7bfe-aeb3-51a5-089e-98621514518c</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.02.07</code>
+                        <name>Механизация сельского хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>9441ded7-c00f-24a6-1378-2e173649479b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>946c889b-f8ae-ebc5-c003-49651645bc32</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.05</code>
+                        <name>Мастер столярно-плотничных и паркетных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>9ba49bbd-64ae-e16f-3a77-1accf22b07a9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>начальное профессиональное образование</eduProgramType>
+                        <code>112201.01</code>
+                        <name>Хозяйка(ин) усадьбы</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>a25e530a-1fe9-f767-92f9-a051baff76a3</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.04</code>
+                        <name>Коммерция (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>a3c17070-a12f-a35a-8a9b-f8bfe35d389c</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ae4feabb-4076-a5fc-cd21-a2add525eb9e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c01939f2-4b04-08fa-c2c1-21cbcc268a22</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.07</code>
+                        <name>Портной</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c4ee1d1d-b10c-353a-f159-f2580de70a31</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>19.01.17</code>
+                        <name>Повар, кондитер</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ca7f0c7c-c15f-a6e9-ec04-6207f67148e9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType/>
+                        <code>060501</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>cf78620b-ff71-4a17-e1b0-f1ee8f1aaf8e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d0730e82-57f1-0fc2-9b94-61ff6a9b2151</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.01</code>
+                        <name>Экономика и бухгалтерский учет (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d409e25f-45f3-afdd-0d8b-fe6351d4d0ca</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.05</code>
+                        <name>Закройщик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>dcf9164a-bd19-c6e0-a7e5-770672385ea1</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.01.03</code>
+                        <name>Автомеханик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e4b0a7dd-cff9-dcbd-7332-06154e443c3a</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.23</code>
+                        <name>Хозяйка(ин) усадьбы</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e71ed794-eb3c-caf0-2af3-060513a181c9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>efa2c378-e76c-9526-21fb-87cebc431438</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType/>
+                        <code>260807.01</code>
+                        <name>Повар, кондитер</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>f4c702b9-25c3-edbd-6d49-770a30d4a099</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>fb94b865-5997-a2b3-212d-f379c932cda5</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>3f0b2df1-2a74-5516-714b-25d49a489e3a</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>fcba8050-972e-5681-7265-06b2923fd926</sysGuid>
+                    </licensedProgram>
+                </licensedPrograms>
+            </supplement>
+            <supplement>
+                <licenseFK>c66e7edd-c49b-cc5b-39e9-e1b9f1c52c0c</licenseFK>
+                <number>2</number>
+                <statusName>Не действует</statusName>
+                <schoolGuid>0802cb4d-7676-0bc5-4c2a-2dae4e253f8c</schoolGuid>
+                <schoolName>государственное бюджетное профессиональное образовательное учреждение Самарской области
+                    «Губернский колледж города Похвистнево»
+                </schoolName>
+                <shortName>ГБПОУ «ГКП»</shortName>
+                <lawAddress>Российская Федерация, Самарская область, 446450, г. Похвистнево, ул. Куйбышева,6
+                </lawAddress>
+                <orgName>Департамент по надзору и контролю в сфере образования и информационной безопасности
+                    министерства образования и науки Самарской области
+                </orgName>
+                <numLicDoc>0003667</numLicDoc>
+                <dateLicDoc/>
+                <sysGuid>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</sysGuid>
+                <licensedPrograms>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>04a2b520-e9e8-a071-7609-dab8cb520f14</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.23</code>
+                        <name>Хозяйка(ин) усадьбы</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0b2da117-5a46-5534-0c94-cae6780f9849</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.01.03</code>
+                        <name>Автомеханик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0d12e9dd-c48c-bd47-58f1-86f5a402a796</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType/>
+                        <code>-</code>
+                        <name>Дополнительное профессиональное образование</name>
+                        <eduLevelName>Дополнительное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0d2e921e-71a4-a11d-4e3c-c7b338a13155</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.01.01</code>
+                        <name>Младшая медицинская сестра по уходу за больными</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>14b61b40-5ad5-8a83-55f7-c4963cc73ca1</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>1608f639-f25f-d021-cc96-9c72f3145b16</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>1a75e611-7319-8842-4462-a797885e38ba</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>19.01.17</code>
+                        <name>Повар, кондитер</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>1bbecb18-a802-ce36-683a-9dd3b80a9374</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.26</code>
+                        <name>Токарь-универсал</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>25c4b845-8279-8176-4ca8-db210aa189b5</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>29b6566f-e555-6fe1-3c0a-3370605bd6d9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>2bce1385-0935-6585-8d3b-ffe8cbd8401b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.02.07</code>
+                        <name>Механизация сельского хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>2db49fd2-4929-5651-5ee5-471b21ffb81f</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>начальное профессиональное образование</eduProgramType>
+                        <code>112201.01</code>
+                        <name>Хозяйка(ин) усадьбы</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>2f314349-8d66-68a5-3913-52aa42cc99db</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>30fcfb74-319c-ec25-2e8a-99d9e562e8f4</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.02.04</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>317ceed3-6d15-3d43-0721-6435300698a0</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.02.01</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>330997df-2065-9e66-85e3-ded926d715e4</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.15</code>
+                        <name>Электромонтер по ремонту и обслуживанию электрооборудования в сельскохозяйственном
+                            производстве
+                        </name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>362e9f7d-f5d1-d368-b137-6f1755fbe60b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>190631</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3652e6fb-0c5b-503b-97df-aa9bf0f8fcf0</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>368c6893-f1b1-9d2a-3d05-a56157bc2229</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3791626b-e56b-b6db-657a-42c57529b83c</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.04</code>
+                        <name>Коммерция (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3b3ea9b3-975f-1884-38f3-42f0b1d54f52</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>начальное профессиональное образование</eduProgramType>
+                        <code>150709.02</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3e481e74-b0b1-73ba-5675-c01c2f149464</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3fca340d-df6a-7df4-aa0a-369a620c3581</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.05</code>
+                        <name>Мастер столярно-плотничных и паркетных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>5a96f629-5aef-0be0-6d58-912ff8fe40d2</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>050146</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>6106e304-2f50-57c8-0ede-4d0507ba1435</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.01</code>
+                        <name>Дошкольное образование</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>66e4c82d-ce0f-cd8b-415b-2f83d45c6b40</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.07</code>
+                        <name>Портной</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>689ce54d-2ef2-8bc7-4724-a805a7d4cb93</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType/>
+                        <code>260807.01</code>
+                        <name>Повар, кондитер</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>6e35f3cf-1c6a-4d76-2f58-b5ee088e4bca</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.02.08</code>
+                        <name>Сервис домашнего и коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>70824c16-bfb8-eaac-a6b9-a7081bffef2a</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType/>
+                        <code>060501</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>771ced99-07e7-6943-c332-e82fdb312b94</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.01.03</code>
+                        <name>Мастер по обработке цифровой информации</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>78c75db5-2352-975f-9082-b2ba2dc3f027</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>7bdcb271-07fe-f971-03ca-ded111c78a38</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType/>
+                        <code>-</code>
+                        <name>Профессиональное обучение «Изучение особенностей устройства, эксплуатации котлов
+                            двухконтурных для отопления и горячего водоснабжения КВ2у-150, 400-Гн»
+                        </name>
+                        <eduLevelName>Профессиональная подготовка</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>8b37052d-e18a-9b06-6dd7-8d327cd09317</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>922380a5-133f-9118-b918-d533804602a7</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.01.07</code>
+                        <name>Слесарь по эксплуатации и ремонту газового оборудования</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>92cf01a8-3f24-273f-7227-f114143490a4</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>9c295046-9541-0888-f1fe-4bf9864a1693</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>a6c57003-cf67-5e06-abe7-7f8b4e2752ff</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>31.02.01</code>
+                        <name>Лечебное дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>a6d3cedc-409d-afb4-9d43-4e5db6b56abb</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>a753570e-99b9-d139-8ca2-6fd8974befc2</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>дополнительное образование</eduProgramType>
+                        <code>-</code>
+                        <name>Дополнительное образование детей и взрослых</name>
+                        <eduLevelName>Дополнительное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ad079376-4cbb-3e1b-5a6f-79fb900dfde5</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType/>
+                        <code>110800.02</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>adb22f36-9ad5-ea0a-eb3c-982abb0f66d9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>bad5cc02-7c75-68e8-8fe4-4e794afde74e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>230401</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>bde3c4e8-0358-3ef4-7dd7-ff9ca8ffc75a</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c0802c9a-10c3-987a-abd2-9b1bfedeae74</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.02</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>cc81c4d5-672d-4ad6-fb28-9a9d8a33ecf9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.05</code>
+                        <name>Закройщик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ce28838c-eded-b17f-1f34-0758cfd932a8</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d0274f10-6ffa-b62b-e6a4-f69460364513</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>dbff04aa-7e8c-2355-47a0-7a957fd73fb1</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.01</code>
+                        <name>Экономика и бухгалтерский учет (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>dfe6063f-b42f-212f-ebd1-7d93272bbb50</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e0efa5ac-96e2-d9a2-3446-afd747bdb2d1</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>30912</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e3ee9e36-acdb-2b0f-452f-7521618bb318</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.02.08</code>
+                        <name>Сервис домашнего и коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e6d9a0c2-6e64-2627-bb0d-8bd335fa7130</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e7748cd8-3971-a776-4782-9ed08127d40e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ed7af7c2-3fda-0b63-1ce3-c53dc08c1939</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>f0b1bab3-b901-7dda-de07-522ca6678c69</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>65e03b9d-1ac3-6e8b-da2f-f5bca2fc5368</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>31.02.06</code>
+                        <name>Стоматология профилактическая</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>f36d609c-9c37-0ad7-5ac5-1400cb1fd8b6</sysGuid>
+                    </licensedProgram>
+                </licensedPrograms>
+            </supplement>
+            <supplement>
+                <licenseFK>c66e7edd-c49b-cc5b-39e9-e1b9f1c52c0c</licenseFK>
+                <number>1</number>
+                <statusName>Действует</statusName>
+                <schoolGuid>0802cb4d-7676-0bc5-4c2a-2dae4e253f8c</schoolGuid>
+                <schoolName>государственное бюджетное профессиональное образовательное учреждение Самарской области
+                    &quot;Губернский колледж города Похвистнево&quot;
+                </schoolName>
+                <shortName>ГБПОУ «ГКП»</shortName>
+                <lawAddress>Российская Федерация, Самарская область, 446450, г. Похвистнево, ул. Куйбышева,6
+                </lawAddress>
+                <orgName>Департамент по надзору и контролю в сфере образования и информационной безопасности
+                    министерства образования и науки Самарской области
+                </orgName>
+                <numLicDoc>0005016, 0005017</numLicDoc>
+                <dateLicDoc/>
+                <sysGuid>e2127c42-b559-1d61-2460-b6a71f9fbd18</sysGuid>
+                <licensedPrograms>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code>-</code>
+                        <name>Дополнительное профессиональное образование</name>
+                        <eduLevelName>Дополнительное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>014e1b02-c014-5e89-1160-fd3f1c225b3a</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>04b77138-be5e-91a3-bddc-b24764c44cf3</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>07a6d1fe-e779-3205-66f7-f0d3ca671d11</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0c366b8a-bc32-780c-5a34-9e892f9c6446</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.15</code>
+                        <name>Электромонтер по ремонту и обслуживанию электрооборудования в сельскохозяйственном
+                            производстве
+                        </name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>12efa695-2200-5682-a657-fc3224b6ecbf</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.04</code>
+                        <name>Коммерция (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>18ebebd1-9fd2-513b-f012-e7cbb17319f8</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>050146</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>1b1e842d-5b3e-deb5-9db0-6984f44451b4</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>31.02.06</code>
+                        <name>Стоматология профилактическая</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>1b6e5854-f0c2-3cf4-aed8-18787be95596</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.07</code>
+                        <name>Портной</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>1fb08f5a-a420-ebae-f880-0786aa3f88c8</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code>060501</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>270317c2-9752-f29e-c540-bc364fc5cd60</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.02.07</code>
+                        <name>Механизация сельского хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>2bd560e8-b099-6ea1-58df-06c57c80bba6</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3569da6f-da34-0072-3df7-50cc4a606a9c</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>41e60fee-13d1-ed5d-25c0-6030491e2572</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code>-</code>
+                        <name>Профессиональное обучение «Изучение особенностей устройства, эксплуатации котлов
+                            двухконтурных для отопления и горячего водоснабжения КВ2у-150, 400-Гн»
+                        </name>
+                        <eduLevelName>Профессиональная подготовка</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>4e158710-9958-2fb9-ace5-f82ec95f9efe</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>4f163b30-3aa9-b743-718e-4e5c84ca01dc</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>54b41f41-a4fb-cbda-a422-18c78d6ec1b9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>5798cac6-fac2-0f88-28c6-062fbd6855ce</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>5844d4cf-fcc9-59d3-6e8b-34957d941615</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>589ca931-6664-216c-3d7b-ff73bccb2670</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.02</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>59824b21-7caf-7e9f-af26-582a93e67b2e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.01.07</code>
+                        <name>Слесарь по эксплуатации и ремонту газового оборудования</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>64ed7773-2d83-a6a6-ce4d-991973976d17</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>начальное профессиональное образование</eduProgramType>
+                        <code>112201.01</code>
+                        <name>Хозяйка(ин) усадьбы</name>
+                        <eduLevelName>Начальное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>67cacb54-7112-8963-b6f6-ae2d4b5c7ce4</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>6887f8e4-4ace-636c-3467-e6889e7f36a3</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>6b8d9e65-ab60-1e47-71d8-a986d23ffb3c</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.02.04</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>6b94b4ca-ab4f-47f2-01be-5f028c0e38f9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>6ba6d522-ec94-898e-ab08-321dc6b83176</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.01.03</code>
+                        <name>Автомеханик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>7156d085-9033-59eb-ecc7-87025597d4fd</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>7407eb82-1c91-33cc-94e0-a1cfdfafd91b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.05</code>
+                        <name>Закройщик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>7c09ef89-67e5-3c59-5450-2a0e0e04c1b3</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>30912</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>7f612cd9-bc84-fe65-a966-6d121faf70fc</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>81a5fa55-8363-d672-5aab-3c20a0bc13fc</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.01.03</code>
+                        <name>Мастер по обработке цифровой информации</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>8b8d2ea0-dbc0-84ee-75d1-cbab5200bf0b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>8c9d3f4b-928c-a2c3-31ef-1624932ad48c</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>903fd070-ab7e-d45d-0fd5-935362861c50</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>230401</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>9d4b7aa9-b88b-b7ad-6e12-77720d85fc5e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.02.08</code>
+                        <name>Сервис домашнего и коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>a84338c3-629d-1813-09bf-582ba63e106a</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ada0b9c5-ceb4-e2dc-c278-979e1c68e624</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>b1ecaf6a-dfe5-4f34-7ef0-c11b8a042e15</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.01</code>
+                        <name>Дошкольное образование</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>b4041f7b-6e91-9b9c-8aaf-ad16583ac286</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.02.01</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>b4e2a18c-b05f-f8ee-ffaa-55eea6769566</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.01.01</code>
+                        <name>Младшая медицинская сестра по уходу за больными</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>b710c763-d5fd-747f-a70e-bfdaf4f264d7</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.23</code>
+                        <name>Хозяйка(ин) усадьбы</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c21177c3-98c8-50c8-00de-3c57281ae664</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (ручной и частично механизированной сварки (наплавки)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c489437c-9497-4fd5-8730-35e4a2b05cdf</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.01</code>
+                        <name>Экономика и бухгалтерский учет (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c655f2b2-c457-74d1-d945-7be7f5d6eccc</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.02.08</code>
+                        <name>Сервис домашнего и коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ca8da38b-d9ca-988d-dba2-2a48b2d93405</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>дополнительное образование</eduProgramType>
+                        <code>-</code>
+                        <name>Дополнительное образование детей и взрослых</name>
+                        <eduLevelName>Дополнительное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d22c7b2a-28a2-4492-9071-5e84a69317a0</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.05</code>
+                        <name>Мастер столярно-плотничных и паркетных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e1a9ed0b-0d88-c764-5702-a950470123eb</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e9eaafdd-db6e-32ed-4ce6-da87e06c1237</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>19.01.17</code>
+                        <name>Повар, кондитер</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>f342680e-d7c6-9153-b391-92986a2a7cd7</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.26</code>
+                        <name>Токарь-универсал</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>f535d438-fe6d-869d-1027-48ab2774c66d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>fa6f185f-cc5e-741f-0f69-c1960c9280c5</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code/>
+                        <name/>
+                        <eduLevelName>Среднее общее образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>fe623f27-438d-734b-6620-fc9584609841</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.07</code>
+                        <name>Портной</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0709b7a9-be38-41a9-a7a8-17d2f4c85435</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>19.01.17</code>
+                        <name>Повар, кондитер</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0858a655-103c-4673-96c0-63e99db520c7</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0f0645af-7057-4a51-b6d0-2e0916abf547</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.02.08</code>
+                        <name>Сервис домашнего и коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>13735a22-38e9-427a-afda-d2be616dc83d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>19342917-9bea-4144-8f6b-c2029d97bc15</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.02.04</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3139fcd1-0690-46f3-86bc-35efbd8830ee</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.26</code>
+                        <name>Токарь-универсал</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>38021770-44e5-4197-a67f-303df7b1b735</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.01</code>
+                        <name>Экономика и бухгалтерский учет (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3a1257da-821d-4cbd-a327-82142352adfd</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3a30fb39-e184-4d5f-94b5-7217c73dd623</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>31.02.06</code>
+                        <name>Стоматология профилактическая</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3b22e4e9-fda9-4da7-ad1b-335b8f0fc8e9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (ручной и частично механизированной сварки (наплавки)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>43fced72-030e-4071-b609-461afd55c5db</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>44acd7c2-dc4f-4f5a-a22d-0221a89c473b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>466b8ee7-5555-45a8-be34-7d65b40935c2</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>30912</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>46d26f62-38d0-4dcf-b03b-df4998ee30a0</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>050146</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>4af41d26-7b39-46aa-b55a-7638c2b027e3</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>4edc6674-da36-47bf-9b44-a6d9ba145060</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.02</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>50ca4376-4fd8-40a6-9fc1-2bb2ccebf32d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.01.01</code>
+                        <name>Младшая медицинская сестра по уходу за больными</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>582bfa49-5e34-4946-a92a-64e751ad345f</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>58a7b4a7-6acd-489e-b91b-9ff0e51c7ef2</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>5c64725d-d53b-472b-9990-6224460998f0</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>622d3294-d44f-4714-9ec2-c9a96573ca51</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.01</code>
+                        <name>Дошкольное образование</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>6de74181-6df2-4912-b939-af4d0de86eb2</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>6ff60492-bb5e-4df9-9350-28860fbe5796</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>73245e3b-e6d8-47d8-b646-b913642c4ab0</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code>060501</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>7391b86a-ba99-4cea-a32e-8a19f570e799</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.02.07</code>
+                        <name>Механизация сельского хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>82331379-f133-4ecb-8c4b-1fe5e71a045d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.05</code>
+                        <name>Закройщик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>851a5199-7c59-48ac-8868-a63970167662</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>8ac955c6-06e5-4a6e-9c17-c7107ce08c09</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>93310500-9f29-4d88-8d07-85521523e420</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.04</code>
+                        <name>Коммерция (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>96559adf-4a00-43eb-a14d-9d67730bb143</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.01.03</code>
+                        <name>Автомеханик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>9c8b623d-125e-49c8-af25-243a08ec9b2d</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>9e357c3e-a716-4c07-86d6-a43bdacf61e9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.02.01</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>9f072eb1-7b8b-4c27-8ad2-abb0c65626a5</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code>-</code>
+                        <name>Дополнительное профессиональное образование</name>
+                        <eduLevelName>Дополнительное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>a05bfd00-abe9-4f3c-be32-6267031bb999</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.01.03</code>
+                        <name>Мастер по обработке цифровой информации</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>b4394474-2304-430c-86d4-b95175cc5801</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>bb4db794-4c8c-4c10-acf0-73813cdbd3b6</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>bc38b0af-7abc-4cf1-8c8f-c04c1abf6305</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>230401</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c036c37c-1f31-44d3-a7f1-349945e990e7</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.02.08</code>
+                        <name>Сервис домашнего и коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c1f44bfa-0f5b-4e84-9b1e-cec08f0b0b67</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code/>
+                        <name/>
+                        <eduLevelName>Профессиональное обучение</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c5935c45-0f9c-4a90-9a13-66e0653b1a00</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.23</code>
+                        <name>Хозяйка(ин) усадьбы</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c829bb8c-4929-4665-8ab9-286c20bdfeb1</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.15</code>
+                        <name>Электромонтер по ремонту и обслуживанию электрооборудования в сельскохозяйственном
+                            производстве
+                        </name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d0686471-977b-404b-a5cb-6e3b0d88dad2</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d3ea8597-87d6-4e00-bd9d-3001b6cf17c6</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.05</code>
+                        <name>Мастер столярно-плотничных и паркетных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d4706ac2-f7d7-4a08-8931-03816214c2bd</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code/>
+                        <name/>
+                        <eduLevelName>Дополнительное образование детей и взрослых</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d98fd54f-e9ae-45d7-9307-34b29d3e6366</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e03d37b5-64b6-4d43-b9c7-b8f0e19c586a</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e38c125e-b883-4b22-9bac-b38f1e945f74</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e6a2c967-86aa-4f0e-8b94-b043ebcf9050</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>fecd25c7-3303-4812-8e18-5a0776a8e2ee</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.01.07</code>
+                        <name>Слесарь по эксплуатации и ремонту газового оборудования</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ffe21157-e339-4599-a971-e0e0bbb46929</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.05</code>
+                        <name>Мастер столярно-плотничных и паркетных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0882ed03-a71f-4dad-8828-9293ebb9dc40</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.01.07</code>
+                        <name>Слесарь по эксплуатации и ремонту газового оборудования</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0e29c49d-16e9-45f1-820d-8bdec98f7054</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.07</code>
+                        <name>Портной</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>0ea33cea-78cc-4927-a09c-38af98121501</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.01.01</code>
+                        <name>Младшая медицинская сестра по уходу за больными</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>11d07b60-a417-4cae-b483-98f5db9f90ca</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.01</code>
+                        <name>Экономика и бухгалтерский учет (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>1bb98369-0a80-450d-a744-3d7a86b0aa9b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.15</code>
+                        <name>Электромонтер по ремонту и обслуживанию электрооборудования в сельскохозяйственном
+                            производстве
+                        </name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3bed78ca-c4c7-4259-8d80-a318d0a5ceb0</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.13</code>
+                        <name>Тракторист-машинист сельскохозяйственного производства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>3ee67535-558e-4eaf-b22e-584eba2f7266</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.02.03</code>
+                        <name>Техническое обслуживание и ремонт автомобильного транспорта</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>4627f263-c3d7-48f0-8e12-fc5383f31e52</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code/>
+                        <name/>
+                        <eduLevelName>Профессиональное обучение</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>48a0caa4-6100-4793-9309-8d6bc45be00b</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.02.04</code>
+                        <name>Коммерция (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>4ada2459-87a2-4d98-95df-f15f16ebc02e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>29.01.05</code>
+                        <name>Закройщик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>4f5cbfdd-bafd-472b-9a87-637d01fdbb8a</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.02</code>
+                        <name>Преподавание в начальных классах</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>54b1a2d6-5949-458a-bf38-ec2b63937c9e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.01.23</code>
+                        <name>Хозяйка(ин) усадьбы</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>5a42790e-b571-4eed-ba3d-eb4391ee45d0</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (ручной и частично механизированной сварки (наплавки)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>63033fcc-c42f-43f3-bc56-edbee78ce7f5</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>19.01.17</code>
+                        <name>Повар, кондитер</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>647c34ff-22f1-4f3e-a705-034f96cbc6e7</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code>-</code>
+                        <name>Дополнительное профессиональное образование</name>
+                        <eduLevelName>Дополнительное профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>64eaa19b-ce14-464a-abf9-fec11dbb2903</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>СПО - подготовка специалистов среднего звена</eduProgramType>
+                        <code>31.02.01</code>
+                        <name>Лечебное дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>686d707e-7eb8-4ff7-9052-b0235c2dbd18</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>40.02.01</code>
+                        <name>Право и организация социального обеспечения</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>719b9122-83a0-4040-a697-145305f9d455</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.07</code>
+                        <name>Мастер общестроительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>85a56557-e992-4227-859b-4225c8e674fc</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>44.02.01</code>
+                        <name>Дошкольное образование</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>8bce825d-e5a9-4f93-ab9f-4c2846ce2d5a</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>23.01.03</code>
+                        <name>Автомеханик</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>971cc8d4-8885-4b16-895e-1eb7c16897be</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.26</code>
+                        <name>Токарь-универсал</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>9f7671fa-ffac-4e20-bc31-d2230cd1eda6</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.02.04</code>
+                        <name>Информационные системы (по отраслям)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>a03cf604-ecf3-4154-96b5-405a96809ab9</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>35.02.07</code>
+                        <name>Механизация сельского хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>b7ea5a68-f8c1-4a3d-b860-dffc82400780</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType/>
+                        <code/>
+                        <name/>
+                        <eduLevelName>Дополнительное образование детей и взрослых</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c5cd84d9-5fad-4b26-ad25-25514c451f88</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>09.01.03</code>
+                        <name>Мастер по обработке цифровой информации</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>c69d3ba6-7f2c-429f-8c07-c769b0316a71</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>43.02.08</code>
+                        <name>Сервис домашнего и коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ca21b945-db8e-4f34-a08c-44391e7bbf72</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.10</code>
+                        <name>Мастер жилищно-коммунального хозяйства</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>ce2b2e7b-e4bc-4ca3-abab-136d72909e05</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>39.02.01</code>
+                        <name>Социальная работа</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>d679e167-32fa-449f-a320-ff1cc05fe74c</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>15.01.05</code>
+                        <name>Сварщик (электросварочные и газосварочные работы)</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e10435c0-97f2-4cc7-869f-a0b1ee6be65e</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>34.02.01</code>
+                        <name>Сестринское дело</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>e4456353-5776-4cfb-8207-aa73bf798712</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>38.01.02</code>
+                        <name>Продавец, контролер-кассир</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>eb8657ba-5737-486b-8bca-e4604a0a0636</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>08.01.08</code>
+                        <name>Мастер отделочных строительных работ</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>f53b313e-7736-4761-a5e3-5a8775b00d09</sysGuid>
+                    </licensedProgram>
+                    <licensedProgram>
+                        <supplementFk>e2127c42-b559-1d61-2460-b6a71f9fbd18</supplementFk>
+                        <eduProgramType>среднее профессиональное образование</eduProgramType>
+                        <code>31.02.06</code>
+                        <name>Стоматология профилактическая</name>
+                        <eduLevelName>Среднее профессиональное образование</eduLevelName>
+                        <eduProgramKind></eduProgramKind>
+                        <qualificationCode></qualificationCode>
+                        <qualificationName/>
+                        <sysGuid>f91bc791-b92f-4ec1-bbcf-b5fef3e64fc9</sysGuid>
+                    </licensedProgram>
+                </licensedPrograms>
+            </supplement>
+        </supplements>
+    </license>
+</licenses>
