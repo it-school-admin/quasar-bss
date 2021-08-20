@@ -1,5 +1,6 @@
 package ru.quasar.edu.bss.entity;
 
+import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.StandardEntity;
 
 import javax.persistence.*;
@@ -8,6 +9,7 @@ import java.util.List;
 
 @Table(name = "BSS_MAIN_DIRECTION")
 @Entity(name = "bss_MainDirection")
+@NamePattern("%s|directionName")
 public class MainDirection extends StandardEntity {
     private static final long serialVersionUID = -7812770471280508615L;
 
@@ -18,6 +20,7 @@ public class MainDirection extends StandardEntity {
     @Lob
     @Column(name = "MISSION")
     private String mission;
+
     @JoinTable(name = "BSS_QUASAR_PROJECT_MAIN_DIRECTION_LINK",
             joinColumns = @JoinColumn(name = "MAIN_DIRECTION_ID"),
             inverseJoinColumns = @JoinColumn(name = "QUASAR_PROJECT_ID"))

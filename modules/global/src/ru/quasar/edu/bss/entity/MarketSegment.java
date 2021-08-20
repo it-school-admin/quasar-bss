@@ -1,11 +1,13 @@
 package ru.quasar.edu.bss.entity;
 
+import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.StandardEntity;
 
 import javax.persistence.*;
 
 @Table(name = "BSS_MARKET_SEGMENT")
 @Entity(name = "bss_MarketSegment")
+@NamePattern("%s|segmentName")
 public class MarketSegment extends StandardEntity {
     private static final long serialVersionUID = -3642293220240984446L;
 

@@ -7,7 +7,7 @@ import javax.persistence.*;
 
 @Table(name = "BSS_EDUCATIONAL_ORGANIZATION_STRUCTURE")
 @Entity(name = "bss_EducationalOrganizationStructure")
-@NamePattern("%s|name")
+@NamePattern("%s|shortName")
 public class EducationalOrganizationStructure extends StandardEntity {
     private static final long serialVersionUID = 8174470780687079600L;
 

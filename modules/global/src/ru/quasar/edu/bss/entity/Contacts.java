@@ -8,7 +8,7 @@ import java.util.List;
 
 @Table(name = "BSS_CONTACTS")
 @Entity(name = "bss_Contacts")
-@NamePattern("%s|description")
+@NamePattern("%s|contactName")
 public class Contacts extends StandardEntity {
     private static final long serialVersionUID = -1130582405231069989L;
 

@@ -9,7 +9,7 @@ import java.util.List;
 
 @Table(name = "BSS_COMPETITOR_PRODUCT")
 @Entity(name = "bss_CompetitorProduct")
-@NamePattern("%s|description")
+@NamePattern("%s|productName")
 public class CompetitorProduct extends StandardEntity {
     private static final long serialVersionUID = -4368131315179602006L;
 

@@ -1,5 +1,6 @@
 package ru.quasar.edu.bss.entity;
 
+import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.OnDelete;
 import com.haulmont.cuba.core.entity.annotation.OnDeleteInverse;
@@ -11,6 +12,7 @@ import java.util.Set;
 
 @Table(name = "BSS_QUASAR_PRODUCT")
 @Entity(name = "bss_QuasarProduct")
+@NamePattern("%s|productName")
 public class QuasarProduct extends StandardEntity {
     private static final long serialVersionUID = -7988618248410796508L;
 

@@ -1,5 +1,6 @@
 package ru.quasar.edu.bss.entity;
 
+import com.haulmont.chile.core.annotations.NamePattern;
 import com.haulmont.cuba.core.entity.StandardEntity;
 import com.haulmont.cuba.core.entity.annotation.Lookup;
 import com.haulmont.cuba.core.entity.annotation.LookupType;
@@ -13,6 +14,7 @@ import java.util.List;
 
 @Table(name = "BSS_QUASAR_PROJECT")
 @Entity(name = "bss_QuasarProject")
+@NamePattern("%s|projectName")
 public class QuasarProject extends StandardEntity {
     private static final long serialVersionUID = -3676909785945707866L;
 

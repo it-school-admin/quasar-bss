@@ -5,11 +5,11 @@
         focusComponent="marketSegmentsTable"
         messagesPack="ru.quasar.edu.bss.web.screens.marketsegment">
     <data readOnly="true">
-        <collection id="marketSegmentsDc"
-                    class="ru.quasar.edu.bss.entity.MarketSegment">
+
+        <collection id="marketSegmentsDc" class="ru.quasar.edu.bss.entity.MarketSegment">
             <view extends="_local">
-                <property name="parentSegment" view="_minimal"/>
                 <property name="businessType" view="_minimal"/>
+                <property name="parentSegment" view="_minimal"/>
             </view>
             <loader id="marketSegmentsDl">
                 <query>

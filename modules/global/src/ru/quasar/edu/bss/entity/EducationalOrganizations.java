@@ -11,7 +11,7 @@ import java.util.List;
 
 @Table(name = "BSS_EDUCATIONAL_ORGANIZATIONS")
 @Entity(name = "bss_EducationalOrganizations")
-@NamePattern("%s|name")
+@NamePattern("%s|shortName")
 public class EducationalOrganizations extends StandardEntity {
     private static final long serialVersionUID = 1990967569781220278L;
 
