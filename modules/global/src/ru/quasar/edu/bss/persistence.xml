@@ -15,5 +15,7 @@
         <class>ru.quasar.edu.bss.entity.EducationalOrganizations</class>
         <class>ru.quasar.edu.bss.entity.Region</class>
         <class>ru.quasar.edu.bss.entity.EducationalOrganizationStructure</class>
+        <class>ru.quasar.edu.bss.entity.Fund</class>
+        <class>ru.quasar.edu.bss.entity.Grant</class>
     </persistence-unit>
 </persistence>

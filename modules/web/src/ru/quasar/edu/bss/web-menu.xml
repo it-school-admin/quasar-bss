@@ -16,6 +16,8 @@
               caption="mainMsg://menu_config.bss_EducationalOrganizations.browse"/>
         <item screen="bss_EducationalOrganizationStructure.browse"
               caption="mainMsg://menu_config.bss_EducationalOrganizationStructure.browse"/>
+        <item screen="bss_Fund.browse" caption="mainMsg://menu_config.bss_Fund.browse"/>
+        <item screen="bss_Grant.browse" caption="mainMsg://menu_config.bss_Grant.browse"/>
 
     </menu>
 </menu-config>
