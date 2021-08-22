@@ -12,12 +12,9 @@
         <item screen="bss_ContactKind.browse" caption="mainMsg://menu_config.bss_ContactKind.browse"/>
         <item screen="bss_Contacts.browse" caption="mainMsg://menu_config.bss_Contacts.browse"/>
         <item screen="bss_Region.browse" caption="mainMsg://menu_config.bss_Region.browse"/>
-        <item screen="bss_EducationalOrganizations.browse"
-              caption="mainMsg://menu_config.bss_EducationalOrganizations.browse"/>
-        <item screen="bss_EducationalOrganizationStructure.browse"
-              caption="mainMsg://menu_config.bss_EducationalOrganizationStructure.browse"/>
         <item screen="bss_Fund.browse" caption="mainMsg://menu_config.bss_Fund.browse"/>
         <item screen="bss_Grant.browse" caption="mainMsg://menu_config.bss_Grant.browse"/>
+        <item screen="bss_ImportedPostCode.browse" caption="mainMsg://menu_config.bss_ImportedPostCode.browse"/>
 
     </menu>
 </menu-config>

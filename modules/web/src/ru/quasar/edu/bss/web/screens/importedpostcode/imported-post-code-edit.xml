@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://importedPostCodeEdit.caption"
+        focusComponent="form"
+        messagesPack="ru.quasar.edu.bss.web.screens.importedpostcode">
+    <data>
+        <instance id="importedPostCodeDc"
+                  class="ru.quasar.edu.bss.entity.ImportedPostCode">
+            <view extends="_local"/>
+            <loader/>
+        </instance>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="editActions" spacing="true">
+        <form id="form" dataContainer="importedPostCodeDc">
+            <column width="350px">
+                <textField id="postIndexField" property="postIndex"/>
+                <textField id="opsNameField" property="opsName"/>
+                <textField id="opsTypeField" property="opsType"/>
+                <textField id="parentCodeField" property="parentCode"/>
+                <textField id="autonomField" property="autonom"/>
+                <textField id="areaField" property="area"/>
+                <textField id="cityField" property="city"/>
+                <textField id="subCityField" property="subCity"/>
+                <textField id="actDateField" property="actDate"/>
+                <textField id="indexOldField" property="indexOld"/>
+            </column>
+        </form>
+        <hbox id="editActions" spacing="true">
+            <button id="commitAndCloseBtn" action="windowCommitAndClose"/>
+            <button id="closeBtn" action="windowClose"/>
+        </hbox>
+    </layout>
+</window>

@@ -1,0 +1,301 @@
+<Certificate>
+    <IsFederal>1</IsFederal>
+    <Id>bc31018f-782c-4585-a2ff-456051961bc6</Id>
+    <StatusName>Недействующее</StatusName>
+    <StatusCode/>
+    <TypeName>Постоянное</TypeName>
+    <TypeCode>Permanent</TypeCode>
+    <RegionName>Республика Коми</RegionName>
+    <RegionCode>11</RegionCode>
+    <FederalDistrictName>Северо-западный федеральный округ</FederalDistrictName>
+    <FederalDistrictShortName>СЗФО</FederalDistrictShortName>
+    <FederalDistrictCode>NEFD</FederalDistrictCode>
+    <RegNumber>0887</RegNumber>
+    <SerialNumber>АА</SerialNumber>
+    <FormNumber>000909</FormNumber>
+    <IssueDate>2007-07-16 18:50:50</IssueDate>
+    <EndDate>2012-07-16 18:50:50</EndDate>
+    <ControlOrgan>Федеральная служба по надзору в сфере образования и науки</ControlOrgan>
+    <PostAddress>169300, Республика Коми, г. Ухта, ул. Мира, д. 11</PostAddress>
+    <EduOrgFullName>Ухтинский техникум железнодорожного транспорта - филиал федерального государственного бюджетного
+        образовательного учреждения высшего профессионального образования «Петербургский государственный университет
+        путей сообщения»
+    </EduOrgFullName>
+    <EduOrgShortName>УТЖТ - филиал ПГУПС</EduOrgShortName>
+    <EduOrgINN>7812009592</EduOrgINN>
+    <EduOrgKPP>110243001</EduOrgKPP>
+    <EduOrgOGRN>1027810241502</EduOrgOGRN>
+    <IndividualEntrepreneurLastName/>
+    <IndividualEntrepreneurFirstName/>
+    <IndividualEntrepreneurMiddleName/>
+    <IndividualEntrepreneurAddress/>
+    <IndividualEntrepreneurEGRIP/>
+    <IndividualEntrepreneurINN/>
+    <ActualEducationOrganization>
+        <Id>7fa34237-5bd8-1f26-0d7d-ba73dafd4f27</Id>
+        <FullName>Ухтинский техникум железнодорожного транспорта - филиал федерального государственного бюджетного
+            образовательного учреждения высшего образования «Петербургский государственный университет путей сообщения
+            Императора Александра I»
+        </FullName>
+        <ShortName>УТЖТ - филиал ПГУПС</ShortName>
+        <HeadEduOrgId>d8202748-fac8-84b6-9de1-ac2bf0169778</HeadEduOrgId>
+        <IsBranch>1</IsBranch>
+        <PostAddress>190031, Республика Коми, г. Ухта, ул. Мира, д. 11</PostAddress>
+        <Phone>(82167) 51-653</Phone>
+        <Fax>(82147)52-719</Fax>
+        <Email>goutgt@bk.ru</Email>
+        <WebSite/>
+        <OGRN>1027810241502</OGRN>
+        <INN>7812009592</INN>
+        <KPP>110243001</KPP>
+        <HeadPost>836e88f0ac70482f82313d82f34eb340</HeadPost>
+        <HeadName>Блажко Людмила Сергеевна</HeadName>
+        <FormName>Бюджетные учреждения</FormName>
+        <FormCode>20903</FormCode>
+        <KindName>Техникум</KindName>
+        <KindCode/>
+        <TypeName>Профессиональная образовательная организация</TypeName>
+        <TypeCode/>
+        <RegionName>Республика Коми</RegionName>
+        <RegionCode>11</RegionCode>
+        <FederalDistrictCode>NEFD</FederalDistrictCode>
+        <FederalDistrictShortName>СЗФО</FederalDistrictShortName>
+        <FederalDistrictName>Северо-западный федеральный округ</FederalDistrictName>
+    </ActualEducationOrganization>
+    <IndividualEntrepreneur/>
+    <Supplements>
+        <Supplement>
+            <Id>9b92910e-19bf-44eb-ba94-1f64b6a4a25f</Id>
+            <StatusName>Недействующее</StatusName>
+            <StatusCode/>
+            <Number>1</Number>
+            <SerialNumber/>
+            <FormNumber/>
+            <IssueDate>2007-07-16 18:50:50</IssueDate>
+            <IsForBranch>0</IsForBranch>
+            <Note/>
+            <EduOrgFullName>Ухтинский техникум железнодорожного транспорта - филиал федерального государственного
+                бюджетного образовательного учреждения высшего образования «Петербургский государственный университет
+                путей сообщения Императора Александра I»
+            </EduOrgFullName>
+            <EduOrgShortName>УТЖТ - филиал ПГУПС</EduOrgShortName>
+            <EduOrgAddress>169300, Республика Коми, г. Ухта, ул. Мира, д. 11</EduOrgAddress>
+            <EduOrgKPP>110243001</EduOrgKPP>
+            <ActualEducationOrganization>
+                <Id>7fa34237-5bd8-1f26-0d7d-ba73dafd4f27</Id>
+                <FullName>Ухтинский техникум железнодорожного транспорта - филиал федерального государственного
+                    бюджетного образовательного учреждения высшего образования «Петербургский государственный
+                    университет путей сообщения Императора Александра I»
+                </FullName>
+                <ShortName>УТЖТ - филиал ПГУПС</ShortName>
+                <HeadEduOrgId>d8202748-fac8-84b6-9de1-ac2bf0169778</HeadEduOrgId>
+                <IsBranch>1</IsBranch>
+                <PostAddress>190031, Республика Коми, г. Ухта, ул. Мира, д. 11</PostAddress>
+                <Phone>(82167) 51-653</Phone>
+                <Fax>(82147)52-719</Fax>
+                <Email>goutgt@bk.ru</Email>
+                <WebSite/>
+                <OGRN>1027810241502</OGRN>
+                <INN>7812009592</INN>
+                <KPP>110243001</KPP>
+                <HeadPost>836e88f0ac70482f82313d82f34eb340</HeadPost>
+                <HeadName>Блажко Людмила Сергеевна</HeadName>
+                <FormName>Бюджетные учреждения</FormName>
+                <FormCode>20903</FormCode>
+                <KindName>Техникум</KindName>
+                <KindCode/>
+                <TypeName>Профессиональная образовательная организация</TypeName>
+                <TypeCode/>
+                <RegionName>Республика Коми</RegionName>
+                <RegionCode>11</RegionCode>
+                <FederalDistrictCode>NEFD</FederalDistrictCode>
+                <FederalDistrictShortName>СЗФО</FederalDistrictShortName>
+                <FederalDistrictName>Северо-западный федеральный округ</FederalDistrictName>
+            </ActualEducationOrganization>
+            <IndividualEntrepreneur/>
+            <EducationalPrograms>
+                <EducationalProgram>
+                    <Id>3efee5ad-8bdf-4dcf-9256-3ce7040d752b</Id>
+                    <TypeName>высшее профессиональное образование</TypeName>
+                    <TypeCode/>
+                    <KindName/>
+                    <KindCode/>
+                    <EduLevelName>Профессиональная подготовка</EduLevelName>
+                    <EdulevelShortName/>
+                    <EduLevelCode>undefined</EduLevelCode>
+                    <EduSubLevelName/>
+                    <EduSubLevelCode/>
+                    <ProgrammName>Бригадир (освобожденный) по текущему содержанию и ремонту пути и искусственных
+                        сооружений
+                    </ProgrammName>
+                    <ProgrammCode>11241</ProgrammCode>
+                    <OKSOCode/>
+                    <UGSName>Железнодорожный транспорт и метрополитен</UGSName>
+                    <UGSCode/>
+                    <EduNormativePeriod/>
+                    <Qualification>Бригадир (освобожденный) по текущему содержанию и ремонту пути и искусственных
+                        сооружений
+                    </Qualification>
+                    <IsAccredited>0</IsAccredited>
+                    <IsCanceled>0</IsCanceled>
+                    <IsSuspended>0</IsSuspended>
+                </EducationalProgram>
+                <EducationalProgram>
+                    <Id>4e764e01-fc7e-4f97-8560-edb022d7766b</Id>
+                    <TypeName>среднее профессиональное образование</TypeName>
+                    <TypeCode/>
+                    <KindName/>
+                    <KindCode/>
+                    <EduLevelName>Среднее профессиональное образование</EduLevelName>
+                    <EdulevelShortName/>
+                    <EduLevelCode>Medium</EduLevelCode>
+                    <EduSubLevelName/>
+                    <EduSubLevelCode/>
+                    <ProgrammName>Организация перевозок и управление на транспорте (по видам)</ProgrammName>
+                    <ProgrammCode>190701</ProgrammCode>
+                    <OKSOCode>190701</OKSOCode>
+                    <UGSName>Транспортные средства</UGSName>
+                    <UGSCode>190000</UGSCode>
+                    <EduNormativePeriod/>
+                    <Qualification>Организация перевозок и управление на транспорте (по видам)</Qualification>
+                    <IsAccredited>0</IsAccredited>
+                    <IsCanceled>0</IsCanceled>
+                    <IsSuspended>0</IsSuspended>
+                </EducationalProgram>
+                <EducationalProgram>
+                    <Id>57650e99-1bb2-4f31-9780-398b888881ad</Id>
+                    <TypeName>среднее профессиональное образование</TypeName>
+                    <TypeCode/>
+                    <KindName/>
+                    <KindCode/>
+                    <EduLevelName>Среднее профессиональное образование</EduLevelName>
+                    <EdulevelShortName/>
+                    <EduLevelCode>Medium</EduLevelCode>
+                    <EduSubLevelName/>
+                    <EduSubLevelCode/>
+                    <ProgrammName>Правоведение</ProgrammName>
+                    <ProgrammCode>030503</ProgrammCode>
+                    <OKSOCode>51</OKSOCode>
+                    <UGSName>Гуманитарные науки</UGSName>
+                    <UGSCode>030000</UGSCode>
+                    <EduNormativePeriod/>
+                    <Qualification>Юрист</Qualification>
+                    <IsAccredited>0</IsAccredited>
+                    <IsCanceled>0</IsCanceled>
+                    <IsSuspended>0</IsSuspended>
+                </EducationalProgram>
+                <EducationalProgram>
+                    <Id>68f76534-ceac-4552-a407-cb108147f5d4</Id>
+                    <TypeName>среднее профессиональное образование</TypeName>
+                    <TypeCode/>
+                    <KindName/>
+                    <KindCode/>
+                    <EduLevelName>Среднее профессиональное образование</EduLevelName>
+                    <EdulevelShortName/>
+                    <EduLevelCode>Medium</EduLevelCode>
+                    <EduSubLevelName/>
+                    <EduSubLevelCode/>
+                    <ProgrammName>Автоматика и телемеханика на транспорте (по видам транспорта)</ProgrammName>
+                    <ProgrammCode>220204</ProgrammCode>
+                    <OKSOCode>220204</OKSOCode>
+                    <UGSName>Автоматика и управление</UGSName>
+                    <UGSCode>220000</UGSCode>
+                    <EduNormativePeriod/>
+                    <Qualification>Автоматика и телемеханика на транспорте (по видам транспорта)</Qualification>
+                    <IsAccredited>0</IsAccredited>
+                    <IsCanceled>0</IsCanceled>
+                    <IsSuspended>0</IsSuspended>
+                </EducationalProgram>
+                <EducationalProgram>
+                    <Id>6f38dec4-6a29-4bcd-a548-0450cc8b4dd1</Id>
+                    <TypeName>среднее профессиональное образование</TypeName>
+                    <TypeCode/>
+                    <KindName/>
+                    <KindCode/>
+                    <EduLevelName>Среднее профессиональное образование</EduLevelName>
+                    <EdulevelShortName/>
+                    <EduLevelCode>Medium</EduLevelCode>
+                    <EduSubLevelName/>
+                    <EduSubLevelCode/>
+                    <ProgrammName>Экономика и бухгалтерский учет (по отраслям)</ProgrammName>
+                    <ProgrammCode>080110</ProgrammCode>
+                    <OKSOCode>52</OKSOCode>
+                    <UGSName>Экономика и управление</UGSName>
+                    <UGSCode>080000</UGSCode>
+                    <EduNormativePeriod/>
+                    <Qualification>Бухгалтер с углубленной подготовкой</Qualification>
+                    <IsAccredited>0</IsAccredited>
+                    <IsCanceled>0</IsCanceled>
+                    <IsSuspended>0</IsSuspended>
+                </EducationalProgram>
+                <EducationalProgram>
+                    <Id>7e697a41-da75-428c-9169-24637f538875</Id>
+                    <TypeName>среднее профессиональное образование</TypeName>
+                    <TypeCode/>
+                    <KindName/>
+                    <KindCode/>
+                    <EduLevelName>Среднее профессиональное образование</EduLevelName>
+                    <EdulevelShortName/>
+                    <EduLevelCode>Medium</EduLevelCode>
+                    <EduSubLevelName/>
+                    <EduSubLevelCode/>
+                    <ProgrammName>Эксплуатация средств связи</ProgrammName>
+                    <ProgrammCode>210407</ProgrammCode>
+                    <OKSOCode>210407</OKSOCode>
+                    <UGSName>Электронная техника, радиотехника и связь</UGSName>
+                    <UGSCode>210000</UGSCode>
+                    <EduNormativePeriod/>
+                    <Qualification>Эксплуатация средств связи</Qualification>
+                    <IsAccredited>0</IsAccredited>
+                    <IsCanceled>0</IsCanceled>
+                    <IsSuspended>0</IsSuspended>
+                </EducationalProgram>
+                <EducationalProgram>
+                    <Id>ba7f2a87-a7ab-4039-852f-f8272b9fa686</Id>
+                    <TypeName>высшее профессиональное образование</TypeName>
+                    <TypeCode/>
+                    <KindName/>
+                    <KindCode/>
+                    <EduLevelName>Среднее профессиональное образование</EduLevelName>
+                    <EdulevelShortName/>
+                    <EduLevelCode>Medium</EduLevelCode>
+                    <EduSubLevelName/>
+                    <EduSubLevelCode/>
+                    <ProgrammName>Строительство железных дорог, путь и путевое хозяйство</ProgrammName>
+                    <ProgrammCode>270204</ProgrammCode>
+                    <OKSOCode>270204</OKSOCode>
+                    <UGSName>Архитектура и строительство</UGSName>
+                    <UGSCode>270000</UGSCode>
+                    <EduNormativePeriod/>
+                    <Qualification>Строительство железных дорог, путь и путевое хозяйство</Qualification>
+                    <IsAccredited>0</IsAccredited>
+                    <IsCanceled>0</IsCanceled>
+                    <IsSuspended>0</IsSuspended>
+                </EducationalProgram>
+                <EducationalProgram>
+                    <Id>e9615c00-e48b-4907-9695-68797c2e56a4</Id>
+                    <TypeName>высшее профессиональное образование</TypeName>
+                    <TypeCode/>
+                    <KindName/>
+                    <KindCode/>
+                    <EduLevelName>Профессиональная подготовка</EduLevelName>
+                    <EdulevelShortName/>
+                    <EduLevelCode>undefined</EduLevelCode>
+                    <EduSubLevelName/>
+                    <EduSubLevelCode/>
+                    <ProgrammName>Оператор дефектоскопной тележки</ProgrammName>
+                    <ProgrammCode>15572</ProgrammCode>
+                    <OKSOCode/>
+                    <UGSName>Железнодорожный транспорт и метрополитен</UGSName>
+                    <UGSCode/>
+                    <EduNormativePeriod/>
+                    <Qualification>Оператор дефектоскопной тележки</Qualification>
+                    <IsAccredited>0</IsAccredited>
+                    <IsCanceled>0</IsCanceled>
+                    <IsSuspended>0</IsSuspended>
+                </EducationalProgram>
+            </EducationalPrograms>
+        </Supplement>
+    </Supplements>
+    <Decisions/>
+</Certificate>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenData>
+    <Certificates>
+        <Certificate>
+            <IsFederal/>
+            <Id>4d75030c-ab4b-99f4-ef9f-67d8560154f7</Id>
+            <StatusName>Действующее</StatusName>
+            <StatusCode/>
+            <TypeName>Не определен</TypeName>
+            <TypeCode>Unknown</TypeCode>
+            <RegionName>Самарская область</RegionName>
+            <RegionCode>63</RegionCode>
+            <FederalDistrictName>Приволжский федеральный округ</FederalDistrictName>
+            <FederalDistrictShortName>ПФО</FederalDistrictShortName>
+            <FederalDistrictCode>VolgaFD</FederalDistrictCode>
+            <RegNumber>560-16</RegNumber>
+            <SerialNumber>63А01</SerialNumber>
+            <FormNumber>0000605</FormNumber>
+            <IssueDate>2016-03-10 00:00:00</IssueDate>
+            <EndDate>2024-05-25 00:00:00</EndDate>
+            <ControlOrgan>Департамент по надзору и контролю в сфере образования министерства образования и науки
+                Самарской области
+            </ControlOrgan>
+            <PostAddress>446450, Российская Федерация, Самарская область, г. Похвистнево, ул. Революционная, 139
+            </PostAddress>
+            <EduOrgFullName>государственное бюджетное общеобразовательное учреждение Самарской области гимназия имени
+                Заслуженного учителя Российской Федерации Сергея Васильевича Байменова города Похвистнево городского
+                округа Похвистнево Самарской области
+            </EduOrgFullName>
+            <EduOrgShortName/>
+            <EduOrgINN>6372019740</EduOrgINN>
+            <EduOrgKPP/>
+            <EduOrgOGRN>1116372001570</EduOrgOGRN>
+            <IndividualEntrepreneurLastName/>
+            <IndividualEntrepreneurFirstName/>
+            <IndividualEntrepreneurMiddleName/>
+            <IndividualEntrepreneurAddress/>
+            <IndividualEntrepreneurEGRIP/>
+            <IndividualEntrepreneurINN/>
+            <ActualEducationOrganization>
+                <Id>0f56715c-ac8d-f0ad-3d40-c18511dbfbfe</Id>
+                <FullName>государственное бюджетное общеобразовательное учреждение Самарской области гимназия имени
+                    Заслуженного учителя Российской Федерации Сергея Васильевича Байменова города Похвистнево городского
+                    округа Похвистнево Самарской области
+                </FullName>
+                <ShortName/>
+                <HeadEduOrgId/>
+                <IsBranch/>
+                <PostAddress>446450, Российская Федерация, Самарская область, г. Похвистнево, ул. Революционная, 139
+                </PostAddress>
+                <Phone>8 84656 2 17 98</Phone>
+                <Fax/>
+                <Email>gymn_phv@samara.edu.ru</Email>
+                <WebSite>http://gimnazia-baimenova.ru/</WebSite>
+                <OGRN>1116372001570</OGRN>
+                <INN>6372019740</INN>
+                <KPP/>
+                <HeadPost>директор</HeadPost>
+                <HeadName>Вагизова Татьяна Викторовна</HeadName>
+                <FormName/>
+                <FormCode/>
+                <KindName/>
+                <KindCode/>
+                <TypeName/>
+                <TypeCode/>
+                <RegionName>Самарская область</RegionName>
+                <RegionCode>63</RegionCode>
+                <FederalDistrictCode>VolgaFD</FederalDistrictCode>
+                <FederalDistrictShortName>ПФО</FederalDistrictShortName>
+                <FederalDistrictName>Приволжский федеральный округ</FederalDistrictName>
+            </ActualEducationOrganization>
+            <IndividualEntrepreneur/>
+            <Supplements/>
+            <Decisions/>
+        </Certificate>
+    </Certificates>
+</OpenData>

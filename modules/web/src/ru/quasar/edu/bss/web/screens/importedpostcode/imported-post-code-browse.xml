@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        xmlns:c="http://schemas.haulmont.com/cuba/screen/jpql_condition.xsd"
+        caption="msg://importedPostCodeBrowse.caption"
+        focusComponent="importedPostCodesTable"
+        messagesPack="ru.quasar.edu.bss.web.screens.importedpostcode">
+    <data readOnly="true">
+        <collection id="importedPostCodesDc"
+                    class="ru.quasar.edu.bss.entity.ImportedPostCode">
+            <view extends="_local"/>
+            <loader id="importedPostCodesDl">
+                <query>
+                    <![CDATA[select e from bss_ImportedPostCode e]]>
+                </query>
+            </loader>
+        </collection>
+    </data>
+    <dialogMode height="600"
+                width="800"/>
+    <layout expand="importedPostCodesTable"
+            spacing="true">
+        <filter id="filter"
+                applyTo="importedPostCodesTable"
+                dataLoader="importedPostCodesDl">
+            <properties include=".*"/>
+        </filter>
+        <groupTable id="importedPostCodesTable"
+                    width="100%"
+                    dataContainer="importedPostCodesDc">
+            <actions>
+                <action id="create" type="create"/>
+                <action id="edit" type="edit"/>
+                <action id="remove" type="remove"/>
+            </actions>
+            <columns>
+                <column id="postIndex"/>
+                <column id="opsName"/>
+                <column id="opsType"/>
+                <column id="parentCode"/>
+                <column id="autonom"/>
+                <column id="area"/>
+                <column id="city"/>
+                <column id="subCity"/>
+                <column id="actDate"/>
+                <column id="indexOld"/>
+            </columns>
+            <rowsCount/>
+            <buttonsPanel id="buttonsPanel"
+                          alwaysVisible="true">
+                <button id="createBtn" action="importedPostCodesTable.create"/>
+                <button id="editBtn" action="importedPostCodesTable.edit"/>
+                <button id="removeBtn" action="importedPostCodesTable.remove"/>
+            </buttonsPanel>
+        </groupTable>
+        <hbox id="lookupActions" spacing="true" visible="false">
+            <button action="lookupSelectAction"/>
+            <button action="lookupCancelAction"/>
+        </hbox>
+    </layout>
+</window>

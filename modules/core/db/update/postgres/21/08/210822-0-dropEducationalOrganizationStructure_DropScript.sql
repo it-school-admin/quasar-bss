@@ -1,0 +1,1 @@
+drop table if exists BSS_EDUCATIONAL_ORGANIZATION_STRUCTURE__U77035 cascade ;

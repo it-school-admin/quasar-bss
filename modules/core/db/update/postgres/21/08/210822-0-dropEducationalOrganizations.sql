@@ -1,0 +1,1 @@
+alter table bss_educational_organizations rename to BSS_EDUCATIONAL_ORGANIZATIONS__U13283 ;

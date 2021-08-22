@@ -27,6 +27,17 @@ public class Contacts extends StandardEntity {
     @Column(name = "CONTACT_DATA")
     private String contactData;
 
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "director")
+    private EducationalOrganization educationalOrganization;
+
+    public EducationalOrganization getEducationalOrganization() {
+        return educationalOrganization;
+    }
+
+    public void setEducationalOrganization(EducationalOrganization educationalOrganization) {
+        this.educationalOrganization = educationalOrganization;
+    }
+
     public void setContactKind(List<ContactKind> contactKind) {
         this.contactKind = contactKind;
     }

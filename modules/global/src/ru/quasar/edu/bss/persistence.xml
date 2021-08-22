@@ -12,10 +12,14 @@
         <class>ru.quasar.edu.bss.entity.Feature</class>
         <class>ru.quasar.edu.bss.entity.Contacts</class>
         <class>ru.quasar.edu.bss.entity.ContactKind</class>
-        <class>ru.quasar.edu.bss.entity.EducationalOrganizations</class>
         <class>ru.quasar.edu.bss.entity.Region</class>
-        <class>ru.quasar.edu.bss.entity.EducationalOrganizationStructure</class>
         <class>ru.quasar.edu.bss.entity.Fund</class>
         <class>ru.quasar.edu.bss.entity.Grant</class>
+        <class>ru.quasar.edu.bss.entity.EducationalOrganization</class>
+        <class>ru.quasar.edu.bss.entity.ImportedPostCode</class>
+        <class>ru.quasar.edu.bss.entity.Area</class>
+        <class>ru.quasar.edu.bss.entity.City</class>
+        <class>ru.quasar.edu.bss.entity.SubCity</class>
+        <class>ru.quasar.edu.bss.entity.EducationalOrganizationFormName</class>
     </persistence-unit>
 </persistence>

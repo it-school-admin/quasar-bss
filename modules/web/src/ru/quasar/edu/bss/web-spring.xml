@@ -7,5 +7,15 @@
     <context:component-scan base-package="ru.quasar.edu.bss"/>
     
     <gui:screens base-packages="ru.quasar.edu.bss.web"/>
+    <bean id="bss_proxyCreator" class="com.haulmont.cuba.web.sys.remoting.WebRemoteProxyBeanCreator">
+        <property name="serverSelector" ref="cuba_ServerSelector"/>
+        <property name="remoteServices">
+            <map>
+                <entry key="bss_ImportEducationalOrganizationsService"
+                       value="ru.quasar.edu.bss.service.ImportEducationalOrganizationsService"/>
+                <entry key="bss_UUIDCorrectorService" value="ru.quasar.edu.bss.service.UUIDCorrectorService"/>
+            </map>
+        </property>
+    </bean>
 
 </beans>

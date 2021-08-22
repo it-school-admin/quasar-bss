@@ -231,49 +231,7 @@ create table BSS_REGION (
     primary key (ID)
 )^
 -- end BSS_REGION
--- begin BSS_EDUCATIONAL_ORGANIZATION_STRUCTURE
-create table BSS_EDUCATIONAL_ORGANIZATION_STRUCTURE (
-    ID uuid,
-    VERSION integer not null,
-    CREATE_TS timestamp,
-    CREATED_BY varchar(50),
-    UPDATE_TS timestamp,
-    UPDATED_BY varchar(50),
-    DELETE_TS timestamp,
-    DELETED_BY varchar(50),
-    --
-    SHORT_NAME varchar(255),
-    NAME varchar(255),
-    DIRECTOR_ID uuid,
-    SITE varchar(255),
-    ADDRESS varchar(255),
-    EDUCATIONAL_ORGANIZATIONS_ID uuid not null,
-    --
-    primary key (ID)
-)^
--- end BSS_EDUCATIONAL_ORGANIZATION_STRUCTURE
--- begin BSS_EDUCATIONAL_ORGANIZATIONS
-create table BSS_EDUCATIONAL_ORGANIZATIONS (
-    ID uuid,
-    VERSION integer not null,
-    CREATE_TS timestamp,
-    CREATED_BY varchar(50),
-    UPDATE_TS timestamp,
-    UPDATED_BY varchar(50),
-    DELETE_TS timestamp,
-    DELETED_BY varchar(50),
-    --
-    SHORT_NAME varchar(255),
-    NAME varchar(255),
-    ADDRESS varchar(255),
-    EMAIL varchar(255),
-    PHONE varchar(255),
-    SITE varchar(255),
-    DIRECTOR_ID uuid,
-    --
-    primary key (ID)
-)^
--- end BSS_EDUCATIONAL_ORGANIZATIONS
+
 -- begin BSS_FUND
 create table BSS_FUND (
     ID uuid,
@@ -312,3 +270,113 @@ create table BSS_GRANT (
     primary key (ID)
 )^
 -- end BSS_GRANT
+-- begin BSS_IMPORTED_POST_CODE_1
+create table BSS_IMPORTED_POST_CODE_1 (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    POST_INDEX varchar(6) not null,
+    OPS_NAME varchar(255),
+    OPS_TYPE varchar(255),
+    PARENT_CODE varchar(255),
+    AUTONOM varchar(255),
+    AREA varchar(255),
+    CITY varchar(255),
+    SUB_CITY varchar(255),
+    ACT_DATE varchar(255),
+    INDEX_OLD varchar(8),
+    --
+    primary key (ID)
+)^
+-- end BSS_IMPORTED_POST_CODE_1
+-- begin BSS_SUB_CITY
+create table BSS_SUB_CITY (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    primary key (ID)
+)^
+-- end BSS_SUB_CITY
+-- begin BSS_CITY
+create table BSS_CITY (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    primary key (ID)
+)^
+-- end BSS_CITY
+-- begin BSS_EDUCATIONAL_ORGANIZATION
+create table BSS_EDUCATIONAL_ORGANIZATION (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    IS_ACTIVE boolean not null,
+    SHORT_NAME varchar(255) not null,
+    NAME text,
+    INN varchar(255),
+    OGRN varchar(255),
+    SCHOOL_GUID uuid,
+    EMAIL varchar(255),
+    PHONE varchar(255),
+    SITE varchar(255),
+    DIRECTOR_ID uuid,
+    REGION_ID uuid not null,
+    AREA_ID uuid,
+    CITY_ID uuid,
+    SUB_CITY_ID uuid,
+    --
+    primary key (ID)
+)^
+-- end BSS_EDUCATIONAL_ORGANIZATION
+-- begin BSS_AREA
+create table BSS_AREA (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    primary key (ID)
+)^
+-- end BSS_AREA
+-- begin BSS_EDUCATIONAL_ORGANIZATION_FORM_NAME
+create table BSS_EDUCATIONAL_ORGANIZATION_FORM_NAME (
+    ID uuid,
+    VERSION integer not null,
+    CREATE_TS timestamp,
+    CREATED_BY varchar(50),
+    UPDATE_TS timestamp,
+    UPDATED_BY varchar(50),
+    DELETE_TS timestamp,
+    DELETED_BY varchar(50),
+    --
+    primary key (ID)
+)^
+-- end BSS_EDUCATIONAL_ORGANIZATION_FORM_NAME

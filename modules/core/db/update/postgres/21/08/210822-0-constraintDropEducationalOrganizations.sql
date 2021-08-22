@@ -1,0 +1,1 @@
+alter table bss_educational_organization_structure drop constraint FK_BSS_EDUCATIOORGANIZASTRUCTUR_ON_EDUCATIONAL_ORGANIZATIONS ;
